@@ -1,0 +1,28 @@
+:root {
+    --c1: #120227;
+    --c2: #1d0040;
+}
+
+.bg-c1 {
+    background-color: var(--c1);
+}
+
+.border-c1 {
+    border-color: var(--c1);
+}
+
+.text-c1 {
+    color: var(--c1);
+}
+
+.bg-c2 {
+    background-color: var(--c2);
+}
+
+.border-c2 {
+    border-color: var(--c2);
+}
+
+.text-c2 {
+    color: var(--c2);
+}
