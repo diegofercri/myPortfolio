@@ -1,28 +1,17 @@
-:root {
-    --c1: #120227;
-    --c2: #1d0040;
+#start div>div {
+    border: solid 3px;
+    border-radius: 700px;
+    border-color: var(--c3);
+    width: 75%;
 }
 
-.bg-c1 {
-    background-color: var(--c1);
+@media screen and (min-width: 576px) {
+    #start div > div {
+        width: 400px;
+    }
 }
 
-.border-c1 {
-    border-color: var(--c1);
-}
-
-.text-c1 {
-    color: var(--c1);
-}
-
-.bg-c2 {
-    background-color: var(--c2);
-}
-
-.border-c2 {
-    border-color: var(--c2);
-}
-
-.text-c2 {
-    color: var(--c2);
+#start img {
+    border-radius: 700px;
+    width: 100%;
 }

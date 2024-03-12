@@ -13,6 +13,11 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/style-colors.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="bg-c1">
@@ -20,37 +25,62 @@
         <nav class="navbar navbar-expand-sm navbar-dark bg-c2">
             <div class="container-fluid container-xxl">
                 <a class="navbar-brand" href="#">
-                    <img src="img/profilePicture.webp" alt="Diego Profile Picture" class="rounded-3" style="height: 50px;"/>
+                    <img src="img/profilePicture.webp" alt="Diego Profile" class="rounded-3" style="height: 50px;" />
                 </a>
-                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler d-lg-none bg-c3" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
-                    <ul class="navbar-nav mt-2 mt-lg-0">
+                    <ul class="navbar-nav d-flex flex-row align-items-center justify-content-center gap-2 mt-2 mt-sm-0">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#" aria-current="page">Home
-                                <span class="visually-hidden">(current)</span></a>
+                            <a class="btn btn-sm bg-c3 border-2 border-c4 text-c4 fw-bold" href="#aboutme"
+                                role="button">Sobre mí</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="btn btn-sm bg-c3 border-2 border-c4 text-c4 fw-bold" href="#proyects"
+                                role="button">Proyectos</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item" href="#">Action 1</a>
-                                <a class="dropdown-item" href="#">Action 2</a>
-                            </div>
+                        <li class="nav-item">
+                            <a class="btn btn-sm bg-c3 border-2 border-c4 text-c4 fw-bold" href="#technologies"
+                                role="button">Tecnologías</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-sm bg-c3 border-2 border-c4 text-c4 fw-bold" href="#skills"
+                                role="button">Skills</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
     </header>
-    <main></main>
+
+    <main>
+        <section id="start">
+            <div class="container my-5 py-lg-5 d-flex justify-content-center">
+                <div class="p-2 d-flex justify-content-center">
+                    <img src="img/fotoDiego.webp" alt="Diego">
+                </div>
+            </div>
+        </section>
+        <section id="aboutme">
+            <div class="container my-5 d-flex justify-content-center">
+                <p class="col-6 text-center fs-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui officiis veritatis vel, sit
+                    vero magnam in quae ex quasi voluptatibus dolorum harum maxime deserunt ut quidem illo laboriosam
+                    nobis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui officiis veritatis vel, sit
+                    vero magnam in quae ex quasi voluptatibus dolorum harum maxime deserunt ut quidem illo laboriosam
+                    nobis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui officiis veritatis vel, sit
+                    vero magnam in quae ex quasi voluptatibus dolorum harum maxime deserunt ut quidem illo laboriosam
+                    nobis!
+                </p>
+            </div>
+        </section>
+    </main>
+
     <footer>
         <!-- place footer here -->
     </footer>
