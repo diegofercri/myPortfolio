@@ -3,6 +3,16 @@
     --c2: #fdeac4;
     --c3: #e9d09f;
     --c4: #7a3f21;
+    --c5: #252525;
+}
+
+@font-face {
+    font-family: sono;
+    src: url(../fonts/Sono/Sono-VariableFont_MONO\,wght.ttf);
+}
+
+.ft-sono {
+    font-family: sono;
 }
 
 .bg-c1 {
@@ -51,4 +61,16 @@
 
 .text-c4 {
     color: var(--c4);
+}
+
+.bg-c5 {
+    background-color: var(--c5);
+}
+
+.border-c5 {
+    border-color: var(--c5);
+}
+
+.text-c5 {
+    color: var(--c5);
 }
