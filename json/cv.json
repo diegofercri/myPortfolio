@@ -1,0 +1,83 @@
+{
+  "basics": {
+    "name": "Diego Fernández",
+    "label": "Junior Programmer",
+    "image": "",
+    "email": "diegofercri25@gmail.com",
+    "phone": "646 814 218",
+    "url": "https://diegofercri.com",
+    "summary": "A summary of John Doe…",
+    "location": {
+      "address": "Alberto Sanchez 1",
+      "postalCode": "45592",
+      "city": "Cabañas de la Sagra",
+      "countryCode": "Spain",
+      "region": "Toledo"
+    },
+    "profiles": [
+      {
+        "network": "Instagram",
+        "username": "diego_fercri",
+        "url": "https://www.instagram.com/diego_fercri"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "IES Azarquiel",
+      "url": "http://www.ies-azarquiel.es",
+      "area": "Software Development",
+      "studyType": "Multiplatform App Development",
+      "startDate": "2023-09",
+      "endDate": "2025-06",
+      "score": "9.0"
+    },
+    {
+      "institution": "IES Azarquiel",
+      "url": "http://www.ies-azarquiel.es",
+      "area": "General Computer Science",
+      "studyType": "Microcomputer Systems and Networks",
+      "startDate": "2021-09",
+      "endDate": "2023-06",
+      "score": "9.0"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Junior",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "B2"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Staff19 Torneos",
+      "startDate": "2019-01-01",
+      "endDate": "On Going",
+      "description": "Description...",
+      "url": "https://staff19torneos.com/"
+    }
+  ]
+}

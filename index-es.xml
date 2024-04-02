@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.xsl" type="text/xsl"?>
+<es>
+    <nav>
+        <home>Inicio</home>
+        <contact>Contacto</contact>
+        <location>Ubicación</location>
+        <profiles>Perfiles</profiles>
+        <educations>EStudios</educations>
+        <skills>Skills</skills>
+        <languages>Idiomas</languages>
+        <interests>Intereses</interests>
+        <projects>Projectos</projects>
+    </nav>
+    <portfolio>
+        <name>Diego Fernández</name>
+        <label>Programador Junior</label>
+        <image>/img/diegoPicture.webp</image>
+        <email>diegofercri25@gmail.com</email>
+        <phone>646 814 218</phone>
+        <url>https://diegofercri.com</url>
+        <summary>Un resumen de John Doe…</summary>
+        <location>
+            <address>Alberto Sanchez 1</address>
+            <postalCode>45592</postalCode>
+            <city>Cabañas de la Sagra</city>
+            <countryCode>ES</countryCode>
+            <region>Toledo</region>
+        </location>
+        <profiles>
+            <profile>
+                <network>Instagram</network>
+                <username>diego_fercri</username>
+                <url>https://www.instagram.com/diego_fercri</url>
+            </profile>
+        </profiles>
+        <educations>
+            <education>
+                <institution>IES Azarquiel</institution>
+                <url>http://www.ies-azarquiel.es</url>
+                <area>Desarrollo de Software</area>
+                <studyType>Desarrollo de Aplicaciones Multiplataforma</studyType>
+                <startDate>2023-09</startDate>
+                <endDate>2025-06</endDate>
+                <score>9.0</score>
+            </education>
+            <education>
+                <institution>IES Azarquiel</institution>
+                <url>http://www.ies-azarquiel.es</url>
+                <area>Informática General</area>
+                <studyType>Sistemas Microinformáticos y Redes</studyType>
+                <startDate>2021-09</startDate>
+                <endDate>2023-06</endDate>
+                <score>9.0</score>
+            </education>
+        </educations>
+        <skills>
+            <skill>
+                <name>Desarrollo Web</name>
+                <level>Junior</level>
+                <keywords>HTML</keywords>
+                <keywords>CSS</keywords>
+                <keywords>JavaScript</keywords>
+            </skill>
+        </skills>
+        <languages>
+            <language>
+                <name>Español</name>
+                <fluency>Nativo</fluency>
+            </language>
+            <language>
+                <name>Inglés</name>
+                <fluency>B2</fluency>
+            </language>
+        </languages>
+        <interests>
+            <interest>
+                <name>Naturaleza</name>
+                <keywords>Ferrets</keywords>
+                <keywords>Unicorns</keywords>
+            </interest>
+        </interests>
+        <projects>
+            <project>
+                <name>Staff19 Torneos</name>
+                <startDate>2019-01-01</startDate>
+                <endDate>En curso</endDate>
+                <description>Descripción...</description>
+                <url>https://staff19torneos.com/</url>
+            </project>
+        </projects>
+    </portfolio>
+</es>
