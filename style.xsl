@@ -47,7 +47,7 @@
                     <div id="toggle-menu__close" class="toggle-menu toggle-menu__close">
                         <i class="fa fa-close" aria-hidden="true"></i>
                     </div>
-                    <img src="./assets/logo.svg" alt="diego_fercri logo" id="navbar2-logo" class="navbar2-logo" />
+                    <img src="img/profilePicture.webp" alt="diego_fercri logo" id="navbar2-logo" class="navbar2-logo" style="border-radius: 500px"/>
                     <ul id="main-menu" class="main-menu d-flex flex-column list-unstyled m-0">
                         <li class="d-flex">
                             <a href="./index.html#start" class="color-ed nav-link toggle-menu__close">
@@ -85,6 +85,20 @@
                 </nav>
                 
                 <main class="d-flex row row-cols-1 row-cols-xxl-2 m-0">
+                    <div class="d-flex align-content-end justify-content-end position-absolute p-0" style="right: 15px; top: 15px; gap: 15px;">
+                        <a href="index.xml">
+                            <div class="d-flex align-items-center gap-2 fs-5">
+                                <img src="/img/en.webp" alt="english" style="border-radius: 50px; height: 30px;"/>
+                                English
+                            </div>
+                        </a>
+                        <a href="index-es.xml">
+                            <div class="d-flex align-items-center gap-2 fs-5">
+                                <img src="/img/es-bw.webp" alt="spanish" style="border-radius: 50px; height: 30px;"/>
+                                Spanish
+                            </div>
+                        </a>
+                    </div>
                     <section id="start"
                              class="col-xxl-12 d-flex flex-column flex-lg-row vh-100 align-items-center justify-content-evenly">
                         <div class="mx-5 d-flex justify-content-center">

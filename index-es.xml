@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="style.xsl" type="text/xsl"?>
+<?xml-stylesheet href="style-es.xsl" type="text/xsl"?>
 <es>
     <nav>
         <home>Inicio</home>
         <contact>Contacto</contact>
         <location>Ubicación</location>
-        <profiles>Perfiles</profiles>
-        <educations>EStudios</educations>
+        <profiles>Redes</profiles>
+        <educations>Estudios</educations>
         <skills>Skills</skills>
-        <languages>Idiomas</languages>
+        <languages>Lenguajes</languages>
         <interests>Intereses</interests>
         <projects>Projectos</projects>
     </nav>
     <portfolio>
         <name>Diego Fernández Criado</name>
         <label>Programador Junior</label>
-        <image>/img/diegoPicture.webp</image>
-        <email>diegofercri25@gmail.com</email>
-        <phone>646 814 218</phone>
-        <url>https://diegofercri.com</url>
-        <summary>Un resumen de John Doe…</summary>
-        <location>
-            <countryCode>ES</countryCode>
-            <region>Toledo</region>
-        </location>
-        <privacy>Por motivos de privacidad, para conocer mi dirección exacta y teléfono móvil ponte en contacto conmigo en</privacy>
-        <profiles>
-            <profile>
-                <network>Instagram</network>
-                <username>diego_fercri</username>
-                <url>https://www.instagram.com/diego_fercri</url>
-            </profile>
-        </profiles>
+        <summary>Resumen ...</summary>
+        <contacts text="Contacto">
+            <email>diegofercri25@gmail.com</email>
+            <location>
+                <countryCode>ES</countryCode>
+                <region>Toledo</region>
+                <url>https://www.google.com/maps/place/Toledo+Spain</url>
+            </location>
+            <privacy text="Nota: ">Por razones de privacidad, para saber mi ubicación exacta y teléfono móvil ponte en contacto conmigo en</privacy>
+            <profiles>
+                <profile>
+                    <network>instagram</network>
+                    <username>diego_fercri</username>
+                    <url>https://www.instagram.com/diego_fercri</url>
+                </profile>
+                <profile>
+                    <network>github</network>
+                    <username>diegofercri</username>
+                    <url>https://github.com/diegofercri</url>
+                </profile>
+            </profiles>
+        </contacts>
+
         <educations>
             <education>
                 <institution>IES Azarquiel</institution>
@@ -45,7 +51,7 @@
             <education>
                 <institution>IES Azarquiel</institution>
                 <url>http://www.ies-azarquiel.es</url>
-                <area>Informática General</area>
+                <area>Informática</area>
                 <studyType>Sistemas Microinformáticos y Redes</studyType>
                 <startDate>2021-09</startDate>
                 <endDate>2023-06</endDate>
@@ -83,7 +89,7 @@
                 <name>Staff19 Torneos</name>
                 <startDate>2019-01-01</startDate>
                 <endDate>En curso</endDate>
-                <description>Descripción...</description>
+                <description>Descripcion...</description>
                 <url>https://staff19torneos.com/</url>
             </project>
         </projects>

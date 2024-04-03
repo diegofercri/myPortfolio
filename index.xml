@@ -15,7 +15,7 @@
     <portfolio>
         <name>Diego Fernández Criado</name>
         <label>Junior Programmer</label>
-        <summary>A summary of John Doe…</summary>
+        <summary>Summary ...</summary>
         <contacts text="Contact">
             <email text="e-mail: ">diegofercri25@gmail.com</email>
             <location text="Location: ">

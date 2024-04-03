@@ -15,6 +15,7 @@
     <xsl:output method="html" encoding="utf-8" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>
     <xsl:template match="/">
         
+        
         <html lang="es">
             
             <head>
@@ -46,13 +47,13 @@
                     <div id="toggle-menu__close" class="toggle-menu toggle-menu__close">
                         <i class="fa fa-close" aria-hidden="true"></i>
                     </div>
-                    <img src="./assets/logo.svg" alt="diego_fercri logo" id="navbar2-logo" class="navbar2-logo" />
+                    <img src="img/profilePicture.webp" alt="diego_fercri logo" id="navbar2-logo" class="navbar2-logo" style="border-radius: 500px"/>
                     <ul id="main-menu" class="main-menu d-flex flex-column list-unstyled m-0">
                         <li class="d-flex">
                             <a href="./index.html#start" class="color-ed nav-link toggle-menu__close">
                                 <div class="d-flex align-items-center" data-i18n="home">
                                     <i class="fa fa-home" aria-hidden="true"></i>
-                                    <xsl:value-of select="es/nav/home"/>
+                                    <xsl:value-of select="es/nav/home" />
                                 </div>
                             </a>
                         </li>
@@ -60,88 +61,98 @@
                             <a href="#contact" class="color-ed nav-link toggle-menu__close">
                                 <div class="d-flex align-items-center">
                                     <i class="fa fa-address-book" aria-hidden="true"></i>
-                                    Contacto
+                                    <xsl:value-of select="es/nav/contact" />
                                 </div>
                             </a>
                         </li>
                         <li class="d-flex">
-                            <a id="toggle-menu__close-3" href="./pages/tickets/tickets.html" class="color-ed nav-link">
+                            <a href="#contact" class="color-ed nav-link toggle-menu__close">
                                 <div class="d-flex align-items-center">
-                                    <i class="fa fa-ticket" aria-hidden="true"></i>
-                                    Entradas
+                                    <i class="fa fa-book" aria-hidden="true"></i>
+                                    <xsl:value-of select="es/nav/educations" />
                                 </div>
                             </a>
                         </li>
-                        <li class="dropdown2 nav-link">
-                            <a id="dropdown2-toggle0" class="dropdown2-toggle d-flex nav-link">
+                        <li class="d-flex">
+                            <a href="#contact" class="color-ed nav-link toggle-menu__close">
                                 <div class="d-flex align-items-center">
-                                    <i class="fa fa-trophy" aria-hidden="true"></i>
-                                    Eventos
+                                    <i class="fa fa-code" aria-hidden="true"></i>
+                                    <xsl:value-of select="es/nav/projects" />
                                 </div>
-                                <i class="fa fa-angle-down dropdown2-arrow" aria-hidden="true"></i>
                             </a>
-                            <div id="dropdown2-list0" class="dropdown2-list">
-                                <ul class="list-unstyled">
-                                    <li class="d-flex text-end">
-                                        <a href="./pages/events/planned/planned-events.html"
-                                           class="color-ed dropdown2__link nav-link">Planificados</a>
-                                    </li>
-                                    <li class="d-flex text-end">
-                                        <a href="./pages/events/in-progress/in-progress-events.html"
-                                           class="color-ed dropdown2__link nav-link">En Progreso</a>
-                                    </li>
-                                    <li class="d-flex text-end">
-                                        <a href="./pages/events/ended/ended-events.html"
-                                           class="color-ed dropdown2__link nav-link">Terminados</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="dropdown2 nav-link">
-                            <a id="dropdown2-toggle1" class="dropdown2-toggle d-flex nav-link">
-                                <div class="d-flex align-items-center">
-                                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                                    Inscripciones
-                                </div>
-                                <i class="fa fa-angle-down dropdown2-arrow" aria-hidden="true"></i>
-                            </a>
-                            <div id="dropdown2-list1" class="dropdown2-list">
-                                <ul class="list-unstyled">
-                                    <li class="dropdown2__item d-flex text-end">
-                                        <a href="./pages/registrations/players.html"
-                                           class="color-ed dropdown2__link nav-link">Jugadores</a>
-                                    </li>
-                                    <li class="dropdown2__item d-flex text-end">
-                                        <a href="./pages/registrations/teams.html"
-                                           class="color-ed dropdown2__link nav-link">Equipos</a>
-                                    </li>
-                                </ul>
-                            </div>
                         </li>
                     </ul>
                 </nav>
                 
-                <main>
-                    <section id="start">
-                        <div class="container my-5 py-lg-5 d-flex justify-content-center">
+                <main class="d-flex row row-cols-1 row-cols-xxl-2 m-0">
+                    <div class="d-flex align-content-end justify-content-end position-absolute p-0" style="right: 15px; top: 15px; gap: 15px;">
+                        <a href="index.xml">
+                            <div class="d-flex align-items-center gap-2 fs-5">
+                                <img src="/img/en-bw.webp" alt="english" style="border-radius: 50px; height: 30px;"/>
+                                Inglés
+                            </div>
+                        </a>
+                        <a href="index-es.xml">
+                            <div class="d-flex align-items-center gap-2 fs-5">
+                                <img src="/img/es.webp" alt="spanish" style="border-radius: 50px; height: 30px;"/>
+                                Español
+                            </div>
+                        </a>
+                    </div>
+                    <section id="start"
+                             class="col-xxl-12 d-flex flex-column flex-lg-row vh-100 align-items-center justify-content-evenly">
+                        <div class="mx-5 d-flex justify-content-center">
                             <div class="p-2 d-flex justify-content-center">
-                                <img src="img/fotoDiego.webp" alt="Diego" />
+                                <img src="./img/diegoPicture.webp" alt="Diego" />
                             </div>
                         </div>
+                        <div class="d-flex flex-column justify-content-center">
+                            <a class="fs-1 fw-bold"><xsl:value-of select="es/portfolio/name" /></a>
+                            <a class="fs-3"><xsl:value-of select="es/portfolio/label" /></a>
+                            <a class=""><xsl:value-of select="es/portfolio/summary" /></a>
+                        </div>
                     </section>
-                    <section id="aboutme">
-                        <div class="container my-5 d-flex justify-content-center">
-                            <p class="col-6 text-center fs-5 ft-sono fw-bolder">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui officiis veritatis vel, sit
-                                vero magnam in quae ex quasi voluptatibus dolorum harum maxime deserunt ut quidem illo laboriosam
-                                nobis!
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui officiis veritatis vel, sit
-                                vero magnam in quae ex quasi voluptatibus dolorum harum maxime deserunt ut quidem illo laboriosam
-                                nobis!
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui officiis veritatis vel, sit
-                                vero magnam in quae ex quasi voluptatibus dolorum harum maxime deserunt ut quidem illo laboriosam
-                                nobis!
-                            </p>
+                    <section id="contact" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
+                        <div>
+                            <a class="fs-3"><xsl:value-of select="es/portfolio/contacts/@text" /></a>
+                            <ul class="list-unstyled mt-1">
+                                <li class="fs-5 d-flex gap-2 align-items-center">
+                                    <div class="d-flex align-items-center justify-content-center" style="width: 20px;">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </div>
+                                    <a href="mailto:{en/portfolio/contacts/email}" target="_blank">
+                                        <xsl:value-of select="es/portfolio/contacts/email" />
+                                    </a>
+                                </li>
+                                <xsl:for-each select="es/portfolio/contacts/profiles/profile">
+                                    <li class="fs-5 d-flex gap-2 align-items-center">  
+                                        <div class="d-flex align-items-center justify-content-center" style="width: 20px;">
+                                            <i class="fa fa-{network}" aria-hidden="true"></i>
+                                        </div>
+                                        <a href="{url}" target="_blank">
+                                            <xsl:value-of select="username" />
+                                        </a>
+                                    </li>
+                                </xsl:for-each>
+                                <li class="fs-5 d-flex gap-2 align-items-center">
+                                    <div class="d-flex align-items-center justify-content-center" style="width: 20px;">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    </div>
+                                    <a href="{en/portfolio/contacts/location/url}" target="_blank">
+                                        <xsl:value-of select="es/portfolio/contacts/location/region" />, 
+                                        <xsl:value-of select="es/portfolio/contacts/location/countryCode" />
+                                    </a>
+                                </li>
+                                <li class="fs-6 mt-4">
+                                    <a><xsl:value-of select="es/portfolio/contacts/privacy/@text" />
+                                        <a><xsl:value-of select="es/portfolio/contacts/privacy" />: </a>
+                                        <a href="mailto:{en/portfolio/contacts/email}" target="_blank"><xsl:value-of select="es/portfolio/contacts/email" /></a>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            
                         </div>
                     </section>
                 </main>
