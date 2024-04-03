@@ -1,13 +1,22 @@
 :root {
+    --c0: #fffbf3;
     --c1: #fef0d7;
-    --c2: #fdeac4;
-    --c3: #e9d09f;
-    --c4: #7a3f21;
+    --c2: #ffedcd;
+    --c3: #fdeac4;
+    --c4: #e9d09f;
     --c5: #252525;
 }
 
-.ft-sono {
-    font-family: sono;
+.bg-c0 {
+    background-color: var(--c0);
+}
+
+.border-c0 {
+    border-color: var(--c0);
+}
+
+.text-c0 {
+    color: var(--c0);
 }
 
 .bg-c1 {

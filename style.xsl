@@ -53,7 +53,7 @@
                             <a href="./index.html#start" class="color-ed nav-link toggle-menu__close">
                                 <div class="d-flex align-items-center" data-i18n="home">
                                     <i class="fa fa-home" aria-hidden="true"></i>
-                                    <xsl:value-of select="en/nav/home" />
+                                    <xsl:value-of select="portfolio/nav/home" />
                                 </div>
                             </a>
                         </li>
@@ -61,7 +61,7 @@
                             <a href="#contact" class="color-ed nav-link toggle-menu__close">
                                 <div class="d-flex align-items-center">
                                     <i class="fa fa-address-book" aria-hidden="true"></i>
-                                    <xsl:value-of select="en/nav/contact" />
+                                    <xsl:value-of select="portfolio/nav/contact" />
                                 </div>
                             </a>
                         </li>
@@ -69,7 +69,7 @@
                             <a href="#contact" class="color-ed nav-link toggle-menu__close">
                                 <div class="d-flex align-items-center">
                                     <i class="fa fa-book" aria-hidden="true"></i>
-                                    <xsl:value-of select="en/nav/educations" />
+                                    <xsl:value-of select="portfolio/nav/educations" />
                                 </div>
                             </a>
                         </li>
@@ -77,7 +77,7 @@
                             <a href="#contact" class="color-ed nav-link toggle-menu__close">
                                 <div class="d-flex align-items-center">
                                     <i class="fa fa-code" aria-hidden="true"></i>
-                                    <xsl:value-of select="en/nav/projects" />
+                                    <xsl:value-of select="portfolio/nav/projects" />
                                 </div>
                             </a>
                         </li>
@@ -86,18 +86,14 @@
                 
                 <main class="d-flex row row-cols-1 row-cols-xxl-2 m-0">
                     <div class="d-flex align-content-end justify-content-end position-absolute p-0" style="right: 15px; top: 15px; gap: 15px;">
-                        <a href="index.xml">
-                            <div class="d-flex align-items-center gap-2 fs-5">
-                                <img src="/img/en.webp" alt="english" style="border-radius: 50px; height: 30px;"/>
-                                English
-                            </div>
-                        </a>
-                        <a href="index-es.xml">
-                            <div class="d-flex align-items-center gap-2 fs-5">
-                                <img src="/img/es-bw.webp" alt="spanish" style="border-radius: 50px; height: 30px;"/>
-                                Spanish
-                            </div>
-                        </a>
+                        <xsl:for-each select="portfolio/nav/langs/lang">
+                            <a href="{@url}">
+                                <div class="d-flex align-items-center gap-2 fs-5">
+                                    <img src="{@img}" alt="english" style="border-radius: 50px; height: 30px;"/>
+                                    <xsl:value-of select="@text" />
+                                </div>
+                            </a>
+                        </xsl:for-each>
                     </div>
                     <section id="start"
                              class="col-xxl-12 d-flex flex-column flex-lg-row vh-100 align-items-center justify-content-evenly">
@@ -107,24 +103,55 @@
                             </div>
                         </div>
                         <div class="d-flex flex-column justify-content-center">
-                            <a class="fs-1 fw-bold"><xsl:value-of select="en/portfolio/name" /></a>
-                            <a class="fs-3"><xsl:value-of select="en/portfolio/label" /></a>
-                            <a class=""><xsl:value-of select="en/portfolio/summary" /></a>
+                            <h1 class="fs-1 fw-bold"><xsl:value-of select="portfolio/basics/name" /></h1>
+                            <h2 class="fs-3"><xsl:value-of select="portfolio/basics/label" /></h2>
+                            <a class=""><xsl:value-of select="portfolio/basics/summary" /></a>
+                        </div>
+                    </section>
+                    <section id="educations" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
+                        <div>
+                            <a class="fs-3"><xsl:value-of select="portfolio/educations/@text" /></a>
+                            <div class="d-flex rounded-0 gap-3 mt-3">
+                                <xsl:for-each select="portfolio/educations/education">
+                                    <div class="flex-column align-items-start rounded-2 border-0 border-c5 bg-c0 p-3" aria-current="true">
+                                        <h5 class="mb-3 title-3 text-color-7"><xsl:value-of select="studyType" /></h5>
+                                        <div class="d-flex gap-3">
+                                            <a class="text-color-6"><xsl:value-of select="startDate" /></a>
+                                            <a>-</a>
+                                            <a class="text-color-6"><xsl:value-of select="endDate" /></a>
+                                        </div>
+                                        <div>
+                                            <a href="{url}"><xsl:value-of select="institution" /></a>
+                                        </div>
+                                        <div>
+                                            <a><xsl:value-of select="area" /></a>
+                                        </div>
+                                        <div>
+                                            <a><xsl:value-of select="score/@text" /><xsl:value-of select="score" /></a>
+                                        </div>
+                                        <div class="mt-3 d-flex justify-content-center gap-1 flex-wrap" style="min-width: fit-content; max-width: 400px;">
+                                            <xsl:for-each select="skills/skill">
+                                                <span class="badge bg-c3 text-c5 fw-bold rounded-3 px-2"><xsl:value-of select="@text" /></span>
+                                            </xsl:for-each>
+                                        </div>
+                                    </div>
+                                </xsl:for-each>
+                            </div>
                         </div>
                     </section>
                     <section id="contact" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
                         <div>
-                            <a class="fs-3"><xsl:value-of select="en/portfolio/contacts/@text" /></a>
+                            <a class="fs-3"><xsl:value-of select="portfolio/contacts/@text" /></a>
                             <ul class="list-unstyled mt-1">
                                 <li class="fs-5 d-flex gap-2 align-items-center">
                                     <div class="d-flex align-items-center justify-content-center" style="width: 20px;">
                                         <i class="fa fa-envelope" aria-hidden="true"></i>
                                     </div>
                                     <a href="mailto:{en/portfolio/contacts/email}" target="_blank">
-                                        <xsl:value-of select="en/portfolio/contacts/email" />
+                                        <xsl:value-of select="portfolio/contacts/email" />
                                     </a>
                                 </li>
-                                <xsl:for-each select="en/portfolio/contacts/profiles/profile">
+                                <xsl:for-each select="portfolio/contacts/profiles/profile">
                                     <li class="fs-5 d-flex gap-2 align-items-center">  
                                         <div class="d-flex align-items-center justify-content-center" style="width: 20px;">
                                             <i class="fa fa-{network}" aria-hidden="true"></i>
@@ -139,20 +166,17 @@
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                                     </div>
                                     <a href="{en/portfolio/contacts/location/url}" target="_blank">
-                                        <xsl:value-of select="en/portfolio/contacts/location/region" />, 
-                                        <xsl:value-of select="en/portfolio/contacts/location/countryCode" />
+                                        <xsl:value-of select="portfolio/contacts/location/region" />, 
+                                        <xsl:value-of select="portfolio/contacts/location/countryCode" />
                                     </a>
                                 </li>
                                 <li class="fs-6 mt-4">
-                                    <a><xsl:value-of select="en/portfolio/contacts/privacy/@text" />
-                                        <a><xsl:value-of select="en/portfolio/contacts/privacy" />: </a>
-                                        <a href="mailto:{en/portfolio/contacts/email}" target="_blank"><xsl:value-of select="en/portfolio/contacts/email" /></a>
+                                    <a><xsl:value-of select="portfolio/contacts/privacy/@text" />
+                                        <a><xsl:value-of select="portfolio/contacts/privacy" />: </a>
+                                        <a href="mailto:{en/portfolio/contacts/email}" target="_blank"><xsl:value-of select="portfolio/contacts/email" /></a>
                                     </a>
                                 </li>
                             </ul>
-                        </div>
-                        <div>
-                            
                         </div>
                     </section>
                 </main>

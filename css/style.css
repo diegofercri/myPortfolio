@@ -6,7 +6,7 @@
 #start div>div {
     border: solid 3px;
     border-radius: 700px;
-    border-color: var(--c3);
+    border-color: var(--c4);
 }
 
 @media screen and (min-width: 576px) {
@@ -21,6 +21,12 @@
 }
 
 a {
+    text-decoration: none;
+    font-family: gabarito, monospace;
+    color: var(--c5);
+}
+
+span {
     text-decoration: none;
     font-family: gabarito, monospace;
     color: var(--c5);

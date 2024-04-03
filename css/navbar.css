@@ -28,7 +28,6 @@
         width: 55px;
       }
     }
-  
     .navbar2 {
       width: 55px;
       padding: 0;
@@ -37,6 +36,9 @@
       display: flex;
       justify-content: space-evenly;
       animation: navbar2Load 0.5s ease-in-out;
+    }
+    main {
+      padding-left: 55px;
     }
   }
   
@@ -120,7 +122,7 @@
   
   .toggle-menu__open {
     display: flex;
-    margin: 1rem;
+    margin: 15px;
     height: 3rem;
     width: 3rem;
     border-radius: 5rem;

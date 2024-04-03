@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="style-es.xsl" type="text/xsl"?>
-<es>
+<portfolio>
     <nav>
         <home>Inicio</home>
         <contact>Contacto</contact>
@@ -11,87 +11,114 @@
         <languages>Lenguajes</languages>
         <interests>Intereses</interests>
         <projects>Projectos</projects>
+        <langs>
+            <lang text="Inglés" url="index.xml" img="img/en-bw.webp"></lang>
+            <lang text="Español" url="index-es.xml" img="img/es.webp"></lang>
+        </langs>
     </nav>
-    <portfolio>
+    <basics>
         <name>Diego Fernández Criado</name>
         <label>Programador Junior</label>
         <summary>Resumen ...</summary>
-        <contacts text="Contacto">
-            <email>diegofercri25@gmail.com</email>
-            <location>
-                <countryCode>ES</countryCode>
-                <region>Toledo</region>
-                <url>https://www.google.com/maps/place/Toledo+Spain</url>
-            </location>
-            <privacy text="Nota: ">Por razones de privacidad, para saber mi ubicación exacta y teléfono móvil ponte en contacto conmigo en</privacy>
-            <profiles>
-                <profile>
-                    <network>instagram</network>
-                    <username>diego_fercri</username>
-                    <url>https://www.instagram.com/diego_fercri</url>
-                </profile>
-                <profile>
-                    <network>github</network>
-                    <username>diegofercri</username>
-                    <url>https://github.com/diegofercri</url>
-                </profile>
-            </profiles>
-        </contacts>
-
-        <educations>
-            <education>
-                <institution>IES Azarquiel</institution>
-                <url>http://www.ies-azarquiel.es</url>
-                <area>Desarrollo de Software</area>
-                <studyType>Desarrollo de Aplicaciones Multiplataforma</studyType>
-                <startDate>2023-09</startDate>
-                <endDate>2025-06</endDate>
-                <score>9.0</score>
-            </education>
-            <education>
-                <institution>IES Azarquiel</institution>
-                <url>http://www.ies-azarquiel.es</url>
-                <area>Informática</area>
-                <studyType>Sistemas Microinformáticos y Redes</studyType>
-                <startDate>2021-09</startDate>
-                <endDate>2023-06</endDate>
-                <score>9.0</score>
-            </education>
-        </educations>
-        <skills>
-            <skill>
-                <name>Desarrollo Web</name>
-                <level>Junior</level>
-                <keywords>HTML</keywords>
-                <keywords>CSS</keywords>
-                <keywords>JavaScript</keywords>
-            </skill>
-        </skills>
-        <languages>
-            <language>
-                <name>Español</name>
-                <fluency>Nativo</fluency>
-            </language>
-            <language>
-                <name>Inglés</name>
-                <fluency>B2</fluency>
-            </language>
-        </languages>
-        <interests>
-            <interest>
-                <name>Naturaleza</name>
-                <keywords>Ferrets</keywords>
-                <keywords>Unicorns</keywords>
-            </interest>
-        </interests>
-        <projects>
-            <project>
-                <name>Staff19 Torneos</name>
-                <startDate>2019-01-01</startDate>
-                <endDate>En curso</endDate>
-                <description>Descripcion...</description>
-                <url>https://staff19torneos.com/</url>
-            </project>
-        </projects>
-    </portfolio>
-</es>
+    </basics>
+    <contacts text="Contacto">
+        <email>diegofercri25@gmail.com</email>
+        <location>
+            <countryCode>ES</countryCode>
+            <region>Toledo</region>
+            <url>https://www.google.com/maps/place/Toledo+Spain</url>
+        </location>
+        <privacy text="Nota: ">Por razones de privacidad, si deseas conocer mi ubicación exacta y
+            teléfono móvil ponte en contacto conmigo en</privacy>
+        <profiles>
+            <profile>
+                <network>telegram</network>
+                <username>@diego_fercri</username>
+                <url>https://t.me/diego_fercri</url>
+            </profile>
+            <profile>
+                <network>instagram</network>
+                <username>@diego_fercri</username>
+                <url>https://www.instagram.com/diego_fercri</url>
+            </profile>
+            <profile>
+                <network>github</network>
+                <username>@diegofercri</username>
+                <url>https://github.com/diegofercri</url>
+            </profile>
+        </profiles>
+    </contacts>
+    <educations text="Estudios">
+        <education>
+            <institution>IES Azarquiel</institution>
+            <url>http://www.ies-azarquiel.es</url>
+            <area>Desarrollo de Software</area>
+            <studyType>Desarrollo de Aplicaciones Multiplataforma</studyType>
+            <startDate>09 / 2023</startDate>
+            <endDate>En Curso</endDate>
+            <score text="Nota: ">por definir</score>
+            <skills>
+                <skill text="JAVA"></skill>
+                <skill text="SQL"></skill>
+                <skill text="PL-SQL"></skill>
+                <skill text="HTML"></skill>
+                <skill text="CSS"></skill>
+                <skill text="JS"></skill>
+                <skill text="XML"></skill>
+                <skill text="XSL"></skill>
+                <skill text="BOOTSTRAP"></skill>
+            </skills>
+        </education>
+        <education>
+            <institution>IES Azarquiel</institution>
+            <url>http://www.ies-azarquiel.es</url>
+            <area>Informática</area>
+            <studyType>Sistemas Microinformáticos y Redes</studyType>
+            <startDate>09 / 2021</startDate>
+            <endDate>06 / 2023</endDate>
+            <score text="Nota: ">8.4</score>
+            <skills>
+                <skill text="OFFICE"></skill>
+                <skill text="MANTENIMIENTO DE HARDWARE"></skill>
+                <skill text="SERVICIOS CON LINUX"></skill>
+                <skill text="CIBERSEGURIDAD"></skill>
+                <skill text="REDES LOCALES"></skill>
+            </skills>
+        </education>
+    </educations>
+    <skills>
+        <skill>
+            <name>Desarrollo Web</name>
+            <level>Junior</level>
+            <keywords>HTML</keywords>
+            <keywords>CSS</keywords>
+            <keywords>JavaScript</keywords>
+        </skill>
+    </skills>
+    <languages>
+        <language>
+            <name>Español</name>
+            <fluency>Nativo</fluency>
+        </language>
+        <language>
+            <name>Inglés</name>
+            <fluency>B2</fluency>
+        </language>
+    </languages>
+    <interests>
+        <interest>
+            <name>Naturaleza</name>
+            <keywords>Ferrets</keywords>
+            <keywords>Unicorns</keywords>
+        </interest>
+    </interests>
+    <projects>
+        <project>
+            <name>Staff19 Torneos</name>
+            <startDate>2019-01-01</startDate>
+            <endDate>En curso</endDate>
+            <description>Descripcion...</description>
+            <url>https://staff19torneos.com/</url>
+        </project>
+    </projects>
+</portfolio>
