@@ -95,8 +95,7 @@
                             </a>
                         </xsl:for-each>
                     </div>
-                    <section id="start"
-                             class="col-xxl-12 d-flex flex-column flex-lg-row vh-100 align-items-center justify-content-evenly">
+                    <section id="start" class="col-xxl-12 d-flex flex-column flex-lg-row vh-100 align-items-center justify-content-evenly">
                         <div class="mx-5 d-flex justify-content-center">
                             <div class="p-2 d-flex justify-content-center">
                                 <img src="./img/diegoPicture.webp" alt="Diego" />
@@ -108,6 +107,7 @@
                             <a class=""><xsl:value-of select="portfolio/basics/summary" /></a>
                         </div>
                     </section>
+                    <hr class="w-75 mx-auto rounded-5 border-3 border-c4B" />
                     <section id="educations" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
                         <div>
                             <a class="fs-3"><xsl:value-of select="portfolio/educations/@text" /></a>

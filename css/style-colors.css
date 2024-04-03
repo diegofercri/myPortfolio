@@ -4,6 +4,7 @@
     --c2: #ffedcd;
     --c3: #fdeac4;
     --c4: #e9d09f;
+    --c4B: #b98f3c;
     --c5: #252525;
 }
 
@@ -61,6 +62,10 @@
 
 .border-c4 {
     border-color: var(--c4);
+}
+
+.border-c4B {
+    border-color: var(--c4B);
 }
 
 .text-c4 {
