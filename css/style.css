@@ -1,12 +1,16 @@
+@font-face {
+    font-family: gabarito;
+    src: url(../fonts/Gabarito/Gabarito-VariableFont_wght.ttf);
+}
+
 #start div>div {
     border: solid 3px;
     border-radius: 700px;
     border-color: var(--c3);
-    width: 75%;
 }
 
 @media screen and (min-width: 576px) {
-    #start div > div {
+    #start div>div {
         width: 400px;
     }
 }
@@ -14,4 +18,10 @@
 #start img {
     border-radius: 700px;
     width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-family: gabarito, monospace;
+    color: var(--c5);
 }

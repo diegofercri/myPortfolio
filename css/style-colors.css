@@ -6,11 +6,6 @@
     --c5: #252525;
 }
 
-@font-face {
-    font-family: sono;
-    src: url(../fonts/Sono/Sono-VariableFont_MONO\,wght.ttf);
-}
-
 .ft-sono {
     font-family: sono;
 }

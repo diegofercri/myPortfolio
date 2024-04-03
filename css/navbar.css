@@ -2,8 +2,8 @@
     position: fixed;
     top: 0;
     z-index: 100;
-    background-color: var(--color-4);
-    color: var(--color-1);
+    background-color: var(--c1);
+    color: var(--c5);
     width: 300px;
     height: 100vh;
     padding: 5rem 0;
@@ -19,7 +19,7 @@
     display: none;
   }
   
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
     @keyframes navbar2Load {
       0% {
         width: 300px;
@@ -40,12 +40,15 @@
     }
   }
   
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1440px) {
     .navbar2 {
       width: 300px;
       justify-content: center;
       gap: 13vh;
       transform: translateX(0);
+    }
+    main {
+      padding-left: 300px;
     }
   }
   
@@ -54,7 +57,7 @@
     overflow: scroll;
   }
   
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
     .navbar2--show {
       width: 300px;
       transition: all 0.5s;
@@ -65,7 +68,7 @@
     display: none;
   }
   
-  @media screen and (min-width: 1024px) and (min-height: 768px) {
+  @media screen and (min-width: 1440px) and (min-height: 768px) {
     @keyframes imgLoad {
       0% {
         opacity: 0;
@@ -128,7 +131,7 @@
     display: none;
   }
   
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
     .toggle-menu__open {
       opacity: 0;
       margin: 0;
@@ -138,7 +141,7 @@
     }
   }
   
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1440px) {
     .toggle-menu {
       display: none;
     }
@@ -186,7 +189,7 @@
     margin-right: 1.5rem;
   }
   
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
     .main-menu a > div {
       transform: translateX(-7px);
       transition: transform 0.5s;
@@ -198,7 +201,7 @@
     }
   }
   
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1440px) {
     .main-menu > li > a {
       width: 100%;
       padding: 1rem 2rem;
@@ -261,7 +264,7 @@
     border-color: var(--color-1);
   }
   
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1440px) {
     .dropdown2-list a {
       padding: 0.8rem 2rem;
       margin: 0 2.45rem;
@@ -272,7 +275,7 @@
     margin-left: 0;
   }
   
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
     main {
       display: flex;
       flex-wrap: wrap;
@@ -280,7 +283,7 @@
     }
   }
   
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1440px) {
     main {
       display: flex;
       flex-wrap: wrap;

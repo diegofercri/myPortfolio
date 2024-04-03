@@ -13,7 +13,7 @@
         <projects>Projectos</projects>
     </nav>
     <portfolio>
-        <name>Diego Fernández</name>
+        <name>Diego Fernández Criado</name>
         <label>Programador Junior</label>
         <image>/img/diegoPicture.webp</image>
         <email>diegofercri25@gmail.com</email>
@@ -21,12 +21,10 @@
         <url>https://diegofercri.com</url>
         <summary>Un resumen de John Doe…</summary>
         <location>
-            <address>Alberto Sanchez 1</address>
-            <postalCode>45592</postalCode>
-            <city>Cabañas de la Sagra</city>
             <countryCode>ES</countryCode>
             <region>Toledo</region>
         </location>
+        <privacy>Por motivos de privacidad, para conocer mi dirección exacta y teléfono móvil ponte en contacto conmigo en</privacy>
         <profiles>
             <profile>
                 <network>Instagram</network>

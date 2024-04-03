@@ -15,6 +15,7 @@
     <xsl:output method="html" encoding="utf-8" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>
     <xsl:template match="/">
         
+        
         <html lang="en">
             
             <head>
@@ -52,7 +53,7 @@
                             <a href="./index.html#start" class="color-ed nav-link toggle-menu__close">
                                 <div class="d-flex align-items-center" data-i18n="home">
                                     <i class="fa fa-home" aria-hidden="true"></i>
-                                    <xsl:value-of select="en/nav/home"/>
+                                    <xsl:value-of select="en/nav/home" />
                                 </div>
                             </a>
                         </li>
@@ -60,7 +61,7 @@
                             <a href="#contact" class="color-ed nav-link toggle-menu__close">
                                 <div class="d-flex align-items-center">
                                     <i class="fa fa-address-book" aria-hidden="true"></i>
-                                    <xsl:value-of select="en/nav/contact"/>
+                                    <xsl:value-of select="en/nav/contact" />
                                 </div>
                             </a>
                         </li>
@@ -68,7 +69,7 @@
                             <a href="#contact" class="color-ed nav-link toggle-menu__close">
                                 <div class="d-flex align-items-center">
                                     <i class="fa fa-book" aria-hidden="true"></i>
-                                    <xsl:value-of select="en/nav/educations"/>
+                                    <xsl:value-of select="en/nav/educations" />
                                 </div>
                             </a>
                         </li>
@@ -76,39 +77,68 @@
                             <a href="#contact" class="color-ed nav-link toggle-menu__close">
                                 <div class="d-flex align-items-center">
                                     <i class="fa fa-code" aria-hidden="true"></i>
-                                    <xsl:value-of select="en/nav/projects"/>
+                                    <xsl:value-of select="en/nav/projects" />
                                 </div>
                             </a>
                         </li>
                     </ul>
                 </nav>
                 
-                <main>
-                    <section id="start" class="d-flex justify-content-center">
-                        <div class="m-5">
+                <main class="d-flex row row-cols-1 row-cols-xxl-2 m-0">
+                    <section id="start"
+                             class="col-xxl-12 d-flex flex-column flex-lg-row vh-100 align-items-center justify-content-evenly">
+                        <div class="mx-5 d-flex justify-content-center">
                             <div class="p-2 d-flex justify-content-center">
                                 <img src="./img/diegoPicture.webp" alt="Diego" />
                             </div>
                         </div>
-                        <div class="d-flex flex-column h-100 justify-content-center">
-                            <h1 class="display-1"><xsl:value-of select="en/portfolio/name"/></h1>
-                            <h2 class="display-6"><xsl:value-of select="en/portfolio/label"/></h2>
-                            <p><xsl:value-of select="en/portfolio/summary"/></p>
+                        <div class="d-flex flex-column justify-content-center">
+                            <a class="fs-1 fw-bold"><xsl:value-of select="en/portfolio/name" /></a>
+                            <a class="fs-3"><xsl:value-of select="en/portfolio/label" /></a>
+                            <a class=""><xsl:value-of select="en/portfolio/summary" /></a>
                         </div>
                     </section>
-                    <section id="aboutme">
-                        <div class="m-5">
-                            <p class="col-6 fs-5 ft-sono fw-bolder">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui officiis veritatis vel, sit
-                                vero magnam in quae ex quasi voluptatibus dolorum harum maxime deserunt ut quidem illo laboriosam
-                                nobis!
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui officiis veritatis vel, sit
-                                vero magnam in quae ex quasi voluptatibus dolorum harum maxime deserunt ut quidem illo laboriosam
-                                nobis!
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui officiis veritatis vel, sit
-                                vero magnam in quae ex quasi voluptatibus dolorum harum maxime deserunt ut quidem illo laboriosam
-                                nobis!
-                            </p>
+                    <section id="contact" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
+                        <div>
+                            <a class="fs-3"><xsl:value-of select="en/portfolio/contacts/@text" /></a>
+                            <ul class="list-unstyled mt-1">
+                                <li class="fs-5 d-flex gap-2 align-items-center">
+                                    <div class="d-flex align-items-center justify-content-center" style="width: 20px;">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </div>
+                                    <a href="mailto:{en/portfolio/contacts/email}" target="_blank">
+                                        <xsl:value-of select="en/portfolio/contacts/email" />
+                                    </a>
+                                </li>
+                                <xsl:for-each select="en/portfolio/contacts/profiles/profile">
+                                    <li class="fs-5 d-flex gap-2 align-items-center">  
+                                        <div class="d-flex align-items-center justify-content-center" style="width: 20px;">
+                                            <i class="fa fa-{network}" aria-hidden="true"></i>
+                                        </div>
+                                        <a href="{url}" target="_blank">
+                                            <xsl:value-of select="username" />
+                                        </a>
+                                    </li>
+                                </xsl:for-each>
+                                <li class="fs-5 d-flex gap-2 align-items-center">
+                                    <div class="d-flex align-items-center justify-content-center" style="width: 20px;">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    </div>
+                                    <a href="{en/portfolio/contacts/location/url}" target="_blank">
+                                        <xsl:value-of select="en/portfolio/contacts/location/region" />, 
+                                        <xsl:value-of select="en/portfolio/contacts/location/countryCode" />
+                                    </a>
+                                </li>
+                                <li class="fs-6 mt-4">
+                                    <a><xsl:value-of select="en/portfolio/contacts/privacy/@text" />
+                                        <a><xsl:value-of select="en/portfolio/contacts/privacy" />: </a>
+                                        <a href="mailto:{en/portfolio/contacts/email}" target="_blank"><xsl:value-of select="en/portfolio/contacts/email" /></a>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            
                         </div>
                     </section>
                 </main>

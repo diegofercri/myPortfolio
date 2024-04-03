@@ -1,32 +1,23 @@
-Sono Variable Font
-==================
+Gabarito Variable Font
+======================
 
-This download contains Sono as both a variable font and static fonts.
+This download contains Gabarito as both a variable font and static fonts.
 
-Sono is a variable font with these axes:
-  MONO
+Gabarito is a variable font with this axis:
   wght
 
 This means all the styles are contained in a single file:
-  Sono-VariableFont_MONO,wght.ttf
+  Gabarito-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Sono:
-  static/Sono_Proportional-ExtraLight.ttf
-  static/Sono_Proportional-Light.ttf
-  static/Sono_Proportional-Regular.ttf
-  static/Sono_Proportional-Medium.ttf
-  static/Sono_Proportional-SemiBold.ttf
-  static/Sono_Proportional-Bold.ttf
-  static/Sono_Proportional-ExtraBold.ttf
-  static/Sono-ExtraLight.ttf
-  static/Sono-Light.ttf
-  static/Sono-Regular.ttf
-  static/Sono-Medium.ttf
-  static/Sono-SemiBold.ttf
-  static/Sono-Bold.ttf
-  static/Sono-ExtraBold.ttf
+in those cases you can use the static font files for Gabarito:
+  static/Gabarito-Regular.ttf
+  static/Gabarito-Medium.ttf
+  static/Gabarito-SemiBold.ttf
+  static/Gabarito-Bold.ttf
+  static/Gabarito-ExtraBold.ttf
+  static/Gabarito-Black.ttf
 
 Get started
 -----------
