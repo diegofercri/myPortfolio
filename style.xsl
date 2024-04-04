@@ -118,29 +118,30 @@
                                             <img src="{img}" alt="{name}" class="rounded-1 h-auto" style="width: 200px;"/>
                                             <div class="ms-3 d-flex flex-column justify-content-between h-auto" style="width: 300px;">
                                                 <div>
-                                                    <h5 class="title-3 text-color-7"><xsl:value-of select="name" /></h5>
+                                                    <h5 class="m-0"><xsl:value-of select="name" /></h5>
                                                 </div>
                                                 <div>
                                                     <div class="d-flex gap-3">
-                                                        <a class="text-color-6"><xsl:value-of select="startDate" /></a>
+                                                        <a><xsl:value-of select="startDate" /></a>
                                                         <a>-</a>
-                                                        <a class="text-color-6"><xsl:value-of select="endDate" /></a>
+                                                        <a><xsl:value-of select="endDate" /></a>
                                                     </div>
                                                     <div>
                                                         <p><xsl:value-of select="description" /></p>
                                                     </div>
+                                                    <div class="d-flex gap-1 flex-wrap w-100 mt-2">
+                                                        <xsl:for-each select="technologies/technology">
+                                                            <span class="badge bg-c3 text-c5 fw-bold rounded-3 px-2"><xsl:value-of select="@text" /></span>
+                                                        </xsl:for-each>
+                                                    </div>
                                                 </div>
-                                                <div class="d-flex gap-2 align-items-center">
-                                                    <a href="{url}" target="_blank"><xsl:value-of select="url/@text" />
-                                                        <i class="fa fa-mail-forward ms-2" aria-hidden="true"></i>
+                                                <div class="d-flex gap-2 align-items-center justify-content-center w-100">
+                                                    <a class="btn btn-sm bg-c5 border-2 border-c4 text-c4" href="{url}" role="button" target="_blank">
+                                                        <xsl:value-of select="url/@text" />
+                                                        <i class="fa fa-mail-forward ms-2 text-c4" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="mt-3 d-flex justify-content-center gap-1 flex-wrap w-100">
-                                            <xsl:for-each select="technologies/technology">
-                                                <span class="badge bg-c3 text-c5 fw-bold rounded-3 px-2"><xsl:value-of select="@text" /></span>
-                                            </xsl:for-each>
                                         </div>
                                     </div>
                                 </xsl:for-each>
@@ -152,12 +153,12 @@
                             <a class="fs-3"><xsl:value-of select="portfolio/educations/@text" /></a>
                             <div class="d-flex rounded-0 gap-3 mt-3">
                                 <xsl:for-each select="portfolio/educations/education">
-                                    <div class="flex-column align-items-start rounded-2 border-0 border-c5 bg-c0 p-3">
-                                        <h5 class="mb-2 title-3 text-color-7"><xsl:value-of select="studyType" /></h5>
+                                    <div class="flex-column align-items-start rounded-2 border-0 bg-c0 p-3">
+                                        <h5 class="mb-2"><xsl:value-of select="studyType" /></h5>
                                         <div class="d-flex gap-3 mt-1">
-                                            <a class="text-color-6"><xsl:value-of select="startDate" /></a>
+                                            <a><xsl:value-of select="startDate" /></a>
                                             <a>-</a>
-                                            <a class="text-color-6"><xsl:value-of select="endDate" /></a>
+                                            <a><xsl:value-of select="endDate" /></a>
                                         </div>
                                         <div>
                                             <a><xsl:value-of select="area" /></a>
@@ -185,10 +186,10 @@
                             <a class="fs-3"><xsl:value-of select="portfolio/languages/@text" /></a>
                             <div class="d-flex rounded-0 gap-3 mt-3">
                                 <xsl:for-each select="portfolio/languages/language">
-                                    <div class="d-flex align-items-center gap-4 rounded-2 border-0 border-c5 bg-c0 p-3">
+                                    <div class="d-flex align-items-center gap-4 rounded-2 border-0 bg-c0 p-3">
                                         <div>
-                                            <h5 class="mb-2 title-3 text-color-7"><xsl:value-of select="name" /></h5>
-                                            <a class="text-color-6"><xsl:value-of select="fluency" /></a>
+                                            <h5 class="mb-2"><xsl:value-of select="name" /></h5>
+                                            <a><xsl:value-of select="fluency" /></a>
                                         </div>
                                         <div>
                                             <img src="{img}" alt="{name}"  style="border-radius: 50px; height: 80px;"/>

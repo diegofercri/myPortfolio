@@ -6,6 +6,7 @@
     --c4: #e9d09f;
     --c4B: #b98f3c;
     --c5: #252525;
+    --c5B:#505050;
 }
 
 .bg-c0 {
@@ -82,4 +83,8 @@
 
 .text-c5 {
     color: var(--c5);
+}
+
+.text-c5B {
+    color: var(--c5B);
 }

@@ -3,6 +3,22 @@
     src: url(../fonts/Gabarito/Gabarito-VariableFont_wght.ttf);
 }
 
+* {
+    text-decoration: none;
+    font-family: gabarito, monospace;
+    color: var(--c5);
+}
+
+a {
+    text-decoration: none;
+    color: var(--c5);
+}
+
+p {
+    color: var(--c5B);
+    margin: 0;
+}
+
 #start div>div {
     border: solid 3px;
     border-radius: 700px;
@@ -18,16 +34,4 @@
 #start img {
     border-radius: 700px;
     width: 100%;
-}
-
-a {
-    text-decoration: none;
-    font-family: gabarito, monospace;
-    color: var(--c5);
-}
-
-span {
-    text-decoration: none;
-    font-family: gabarito, monospace;
-    color: var(--c5);
 }
