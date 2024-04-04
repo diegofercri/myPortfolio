@@ -135,10 +135,9 @@
                                                         </xsl:for-each>
                                                     </div>
                                                 </div>
-                                                <div class="d-flex gap-2 align-items-center justify-content-center w-100">
-                                                    <a class="btn btn-sm bg-c5 border-2 border-c4 text-c4" href="{url}" role="button" target="_blank">
+                                                <div class="d-flex gap-2 align-items-center justify-content-end w-100">
+                                                    <a class="btn btn-sm bg-c5 border-2 border-c4 text-c4 fw-bold" href="{url}" role="button" target="_blank">
                                                         <xsl:value-of select="url/@text" />
-                                                        <i class="fa fa-mail-forward ms-2 text-c4" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
                                             </div>

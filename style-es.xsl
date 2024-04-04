@@ -118,7 +118,7 @@
                                             <img src="{img}" alt="{name}" class="rounded-1 h-auto" style="width: 200px;"/>
                                             <div class="ms-3 d-flex flex-column justify-content-between h-auto" style="width: 300px;">
                                                 <div>
-                                                    <h5><xsl:value-of select="name" /></h5>
+                                                    <h5 class="m-0"><xsl:value-of select="name" /></h5>
                                                 </div>
                                                 <div>
                                                     <div class="d-flex gap-3">
@@ -129,16 +129,16 @@
                                                     <div>
                                                         <p><xsl:value-of select="description" /></p>
                                                     </div>
-                                                    <div class="d-flex gap-2 align-items-center">
-                                                        <a href="{url}" target="_blank"><xsl:value-of select="url/@text" />
-                                                            <i class="fa fa-mail-forward ms-2" aria-hidden="true"></i>
-                                                        </a>
+                                                    <div class="d-flex gap-1 flex-wrap w-100 mt-2">
+                                                        <xsl:for-each select="technologies/technology">
+                                                            <span class="badge bg-c3 text-c5 fw-bold rounded-3 px-2"><xsl:value-of select="@text" /></span>
+                                                        </xsl:for-each>
                                                     </div>
                                                 </div>
-                                                <div class="mt-3 d-flex gap-1 flex-wrap w-100">
-                                                    <xsl:for-each select="technologies/technology">
-                                                        <span class="badge bg-c3 text-c5 fw-bold rounded-3 px-2"><xsl:value-of select="@text" /></span>
-                                                    </xsl:for-each>
+                                                <div class="d-flex gap-2 align-items-center justify-content-end w-100">
+                                                    <a class="btn btn-sm bg-c5 border-2 border-c4 text-c4 fw-bold" href="{url}" role="button" target="_blank">
+                                                        <xsl:value-of select="url/@text" />
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>

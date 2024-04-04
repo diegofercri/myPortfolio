@@ -14,7 +14,7 @@
         <projects>Projects</projects>
         <langs>
             <lang text="English" url="index.xml" img="img/en.webp"></lang>
-            <lang text="Spanish" url="index-es.xml" img="img/es-bw.webp"></lang>
+            <lang text="Spanish" url="index-es.xml" img="img/es.webp"></lang>
         </langs>
     </nav>
     <basics>

@@ -12,7 +12,7 @@
         <interests>Intereses</interests>
         <projects>Projectos</projects>
         <langs>
-            <lang text="Inglés" url="index.xml" img="img/en-bw.webp"></lang>
+            <lang text="Inglés" url="index.xml" img="img/en.webp"></lang>
             <lang text="Español" url="index-es.xml" img="img/es.webp"></lang>
         </langs>
     </nav>

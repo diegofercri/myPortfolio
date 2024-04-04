@@ -35,3 +35,8 @@ p {
     border-radius: 700px;
     width: 100%;
 }
+
+.btn:hover {
+    background-color: var(--c4);
+    color: var(--c5);
+}
