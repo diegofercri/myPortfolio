@@ -185,6 +185,26 @@
 
     <!-- Custom JavaScript -->
     <script src="js/navbar.js"></script>
+
+    <div class="flex-column align-content-between ms-3" style="width: 300px;">
+        <div>
+            <h5 class="title-3 text-color-7"><xsl:value-of select="name" /></h5>
+        </div>
+        <div class="d-flex gap-3">
+            <a class="text-color-6"><xsl:value-of select="startDate" /></a>
+            <a>-</a>
+            <a class="text-color-6"><xsl:value-of select="endDate" /></a>
+        </div>
+        <div>
+            <p><xsl:value-of select="description" /></p>
+        </div>
+        <div class="d-flex gap-2 align-items-center">
+            <a href="{url}" target="_blank"><xsl:value-of select="url/@text" />
+                <i class="fa fa-mail-forward ms-2" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+
 </body>
 
 </html>

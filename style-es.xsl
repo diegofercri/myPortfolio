@@ -89,14 +89,13 @@
                         <xsl:for-each select="portfolio/nav/langs/lang">
                             <a href="{@url}">
                                 <div class="d-flex align-items-center gap-2 fs-5">
-                                    <img src="{@img}" alt="english" style="border-radius: 50px; height: 30px;"/>
+                                    <img src="{@img}" alt="{@text}" style="border-radius: 50px; height: 30px;"/>
                                     <xsl:value-of select="@text" />
                                 </div>
                             </a>
                         </xsl:for-each>
                     </div>
-                    <section id="start"
-                             class="col-xxl-12 d-flex flex-column flex-lg-row vh-100 align-items-center justify-content-evenly">
+                    <section id="start" class="col-xxl-12 d-flex flex-column flex-lg-row vh-100 align-items-center justify-content-evenly">
                         <div class="mx-5 d-flex justify-content-center">
                             <div class="p-2 d-flex justify-content-center">
                                 <img src="./img/diegoPicture.webp" alt="Diego" />
@@ -108,6 +107,7 @@
                             <a class=""><xsl:value-of select="portfolio/basics/summary" /></a>
                         </div>
                     </section>
+                    <hr class="w-75 mx-auto rounded-5 border-3 border-c4B" />
                     <section id="educations" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
                         <div>
                             <a class="fs-3"><xsl:value-of select="portfolio/educations/@text" /></a>
@@ -121,6 +121,7 @@
                                             <a class="text-color-6"><xsl:value-of select="endDate" /></a>
                                         </div>
                                         <div>
+                                            
                                             <a href="{url}"><xsl:value-of select="institution" /></a>
                                         </div>
                                         <div>
@@ -133,6 +134,24 @@
                                             <xsl:for-each select="skills/skill">
                                                 <span class="badge bg-c3 text-c5 fw-bold rounded-3 px-2"><xsl:value-of select="@text" /></span>
                                             </xsl:for-each>
+                                        </div>
+                                    </div>
+                                </xsl:for-each>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="languages" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
+                        <div>
+                            <a class="fs-3"><xsl:value-of select="portfolio/languages/@text" /></a>
+                            <div class="d-flex rounded-0 gap-3 mt-3">
+                                <xsl:for-each select="portfolio/languages/language">
+                                    <div class="d-flex align-items-center gap-4 rounded-2 border-0 border-c5 bg-c0 p-3" aria-current="true">
+                                        <div>
+                                            <h5 class="mb-3 title-3 text-color-7"><xsl:value-of select="name" /></h5>
+                                            <a class="text-color-6"><xsl:value-of select="fluency" /></a>
+                                        </div>
+                                        <div>
+                                            <img src="{img}" alt="{name}"  style="border-radius: 50px; height: 80px;"/>
                                         </div>
                                     </div>
                                 </xsl:for-each>

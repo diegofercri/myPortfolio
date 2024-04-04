@@ -30,8 +30,7 @@
             <url>https://www.google.com/maps/place/Toledo+Spain</url>
         </location>
         <privacy text="Note: ">For privacy reasons, to know my exact address and mobile phone number
-            please
-            contact me at</privacy>
+            please contact me at</privacy>
         <profiles>
             <profile>
                 <network>telegram</network>
@@ -97,30 +96,32 @@
             <keywords>JavaScript</keywords>
         </skill>
     </skills>
-    <languages>
+    <languages text="Languages">
         <language>
             <name>Spanish</name>
-            <fluency>Native speaker</fluency>
+            <fluency>Native</fluency>
+            <img>img/es.webp</img>
         </language>
         <language>
             <name>English</name>
             <fluency>B2</fluency>
+            <img>img/en.webp</img>
         </language>
     </languages>
-    <interests>
-        <interest>
-            <name>Wildlife</name>
-            <keywords>Ferrets</keywords>
-            <keywords>Unicorns</keywords>
-        </interest>
-    </interests>
-    <projects>
+    <projects text="Projects">
         <project>
-            <name>Staff19 Torneos</name>
-            <startDate>2019-01-01</startDate>
+            <img>img/staff19.webp</img>
+            <name>Staff19 Torneos Web</name>
+            <startDate>09 / 2024</startDate>
             <endDate>On Going</endDate>
-            <description>Description...</description>
-            <url>https://staff19torneos.com/</url>
+            <description>Basic website for my personal project Staff19 Torneos</description>
+            <url text="Website">https://staff19torneos.com/</url>
+            <technologies>
+                <technology text="HTML"></technology>
+                <technology text="CSS"></technology>
+                <technology text="JS"></technology>
+                <technology text="BOOTSTRAP"></technology>
+            </technologies>
         </project>
     </projects>
 </portfolio>

@@ -95,30 +95,32 @@
             <keywords>JavaScript</keywords>
         </skill>
     </skills>
-    <languages>
+    <languages text="Idiomas">
         <language>
             <name>Español</name>
             <fluency>Nativo</fluency>
+            <img>img/es.webp</img>
         </language>
         <language>
             <name>Inglés</name>
             <fluency>B2</fluency>
+            <img>img/en.webp</img>
         </language>
     </languages>
-    <interests>
-        <interest>
-            <name>Naturaleza</name>
-            <keywords>Ferrets</keywords>
-            <keywords>Unicorns</keywords>
-        </interest>
-    </interests>
-    <projects>
+    <projects text="Proyectos">
         <project>
+            <img>img/staff19.webp</img>
             <name>Staff19 Torneos</name>
             <startDate>2019-01-01</startDate>
             <endDate>En curso</endDate>
-            <description>Descripcion...</description>
-            <url>https://staff19torneos.com/</url>
+            <description>Web básica para mi proyecto personal Staff19 Torneos</description>
+            <url text="Sitio Web">https://staff19torneos.com/</url>
+            <technologies>
+                <technology text="HTML"></technology>
+                <technology text="CSS"></technology>
+                <technology text="JS"></technology>
+                <technology text="BOOTSTRAP"></technology>
+            </technologies>
         </project>
     </projects>
 </portfolio>
