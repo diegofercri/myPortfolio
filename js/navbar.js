@@ -15,30 +15,6 @@ elements.forEach(element => {
 });
 
 
-const dropdown2List0 = document.getElementById('dropdown2-list0');
-const dropdown2Toggle0 = document.getElementById('dropdown2-toggle0');
-const dropdown2List1 = document.getElementById('dropdown2-list1');
-const dropdown2Toggle1 = document.getElementById('dropdown2-toggle1');
-dropdown2Toggle0.addEventListener('click', e => {
-    dropdown2List0.classList.toggle('dropdown2-list--show');
-    if (dropdown2List1.classList.contains('dropdown2-list--show-1')) {
-        dropdown2List1.classList.remove('dropdown2-list--show-1');
-        dropdown2Toggle1.querySelector('.fa-angle-down').classList.toggle('rotated');
-    }
-    dropdown2Toggle0.querySelector('.fa-angle-down').classList.toggle('rotated');
-    imgCloseChecker();
-});
-
-dropdown2Toggle1.addEventListener('click', e => {
-    dropdown2List1.classList.toggle('dropdown2-list--show-1');
-    if (dropdown2List0.classList.contains('dropdown2-list--show')) {
-        dropdown2List0.classList.remove('dropdown2-list--show');
-        dropdown2Toggle0.querySelector('.fa-angle-down').classList.toggle('rotated');
-    }
-    dropdown2Toggle1.querySelector('.fa-angle-down').classList.toggle('rotated');
-    imgCloseChecker();
-});
-
 function imgCloseChecker() {
     // Verifica si ambos toggles están activados
     if (dropdown2List0.classList.contains('dropdown2-list--show') || dropdown2List1.classList.contains('dropdown2-list--show-1')) {
