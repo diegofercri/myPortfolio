@@ -207,7 +207,7 @@
                                     <div class="d-flex align-items-center justify-content-center" style="width: 20px;">
                                         <i class="fa fa-envelope" aria-hidden="true"></i>
                                     </div>
-                                    <a href="mailto:{en/portfolio/contacts/email}" target="_blank">
+                                    <a href="mailto:{portfolio/contacts/email}" target="_blank">
                                         <xsl:value-of select="portfolio/contacts/email" />
                                     </a>
                                 </li>
@@ -225,7 +225,7 @@
                                     <div class="d-flex align-items-center justify-content-center" style="width: 20px;">
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                                     </div>
-                                    <a href="{en/portfolio/contacts/location/url}" target="_blank">
+                                    <a href="{portfolio/contacts/location/url}" target="_blank">
                                         <xsl:value-of select="portfolio/contacts/location/region" />, 
                                         <xsl:value-of select="portfolio/contacts/location/countryCode" />
                                     </a>
@@ -233,7 +233,7 @@
                                 <li class="fs-6 mt-4">
                                     <a><xsl:value-of select="portfolio/contacts/privacy/@text" />
                                         <a><xsl:value-of select="portfolio/contacts/privacy" />: </a>
-                                        <a href="mailto:{en/portfolio/contacts/email}" target="_blank"><xsl:value-of select="portfolio/contacts/email" /></a>
+                                        <a href="mailto:{portfolio/contacts/email}" target="_blank"><xsl:value-of select="portfolio/contacts/email" /></a>
                                     </a>
                                 </li>
                             </ul>

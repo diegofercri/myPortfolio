@@ -94,7 +94,7 @@
     max-width: 70%;
     transform: translate(-50%, 0);
     transition: all 0.7s;
-    animation: imgLoad 0s ease-in-out;
+    animation: imgLoad 1s ease-in-out;
   }
 
   .navbar2-logo--hidden>img {
