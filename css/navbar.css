@@ -64,47 +64,6 @@
   }
 }
 
-.navbar2-logo {
-  display: none;
-}
-
-@media screen and (min-width: 1440px) and (min-height: 768px) {
-  @keyframes imgLoad {
-    0% {
-      opacity: 0;
-      height: 0;
-      transform: scale(0);
-      transform: translate(-50%, 0);
-    }
-
-    100% {
-      opacity: 1;
-      height: 15vh;
-      transform: scale(1);
-      transform: translate(-50%, 0);
-    }
-  }
-
-  .navbar2-logo {
-    display: flex;
-    position: absolute;
-    top: 8vh;
-    left: 50%;
-    height: 15vh;
-    max-width: 70%;
-    transform: translate(-50%, 0);
-    transition: all 0.7s;
-    animation: imgLoad 1s ease-in-out;
-  }
-
-  .navbar2-logo--hidden>img {
-    opacity: 0;
-    height: 0;
-    transform: scale(0);
-    transition: all 0.7s;
-  }
-}
-
 .toggle-menu {
   position: absolute;
   top: 0;
