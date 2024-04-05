@@ -104,15 +104,15 @@
                         </xsl:for-each>
                     </div>
                     <section id="home" class="col-xxl-12 d-flex flex-column flex-lg-row vh-100 align-items-center justify-content-evenly">
-                        <div class="mx-5 d-flex justify-content-center">
+                        <div class="col-12 col-md-6 d-flex justify-content-center">
                             <div class="p-2 d-flex justify-content-center">
-                                <img src="./img/diegoPicture.webp" alt="Diego" />
+                                <img src="img/diegoPicture.webp" alt="Diego" />
                             </div>
                         </div>
-                        <div class="d-flex flex-column justify-content-center w-50">
+                        <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
                             <h1 class="fs-1 fw-bold"><xsl:value-of select="portfolio/basics/name" /></h1>
                             <h2 class="fs-3"><xsl:value-of select="portfolio/basics/label" /></h2>
-                            <a class=""><xsl:value-of select="portfolio/basics/summary" /></a>
+                            <a class="me-md-2 me-lg-5"><xsl:value-of select="portfolio/basics/summary" /></a>
                         </div>
                     </section>
                     <hr class="w-75 mx-auto rounded-5 border-3 border-c4B" />
@@ -122,9 +122,9 @@
                             <div class="d-flex rounded-0 gap-3 mt-3">
                                 <xsl:for-each select="portfolio/projects/project">
                                     <div class="rounded-2 border-0 border-c5 bg-c0 p-3">
-                                        <div class="d-flex" style="width: 500px; height: fit-content;">
-                                            <img src="{img}" alt="{name}" class="rounded-1 h-auto" style="width: 200px;"/>
-                                            <div class="ms-3 d-flex flex-column justify-content-between h-auto" style="width: 300px;">
+                                        <div class="d-flex project-card w-100">
+                                            <img src="{img}" alt="{name}" class="rounded-1 h-auto d-none d-md-block" style="width: 200px;"/>
+                                            <div class="ms-md-3 d-flex flex-column justify-content-between gap-3 w-100">
                                                 <div>
                                                     <h5 class="m-0"><xsl:value-of select="name" /></h5>
                                                 </div>
@@ -143,10 +143,9 @@
                                                         </xsl:for-each>
                                                     </div>
                                                 </div>
-                                                <div class="d-flex gap-2 align-items-center justify-content-center w-100">
-                                                    <a class="btn btn-sm bg-c5 border-2 border-c4 text-c4" href="{url}" role="button" target="_blank">
+                                                <div class="d-flex gap-2 align-items-center justify-content-end w-100">
+                                                    <a class="btn btn-sm bg-c5 border-2 border-c4 text-c4 fw-bold" href="{url}" role="button" target="_blank">
                                                         <xsl:value-of select="url/@text" />
-                                                        <i class="fa fa-mail-forward ms-2 text-c4" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
                                             </div>
@@ -159,9 +158,9 @@
                     <section id="educations" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
                         <div>
                             <a class="fs-3"><xsl:value-of select="portfolio/educations/@text" /></a>
-                            <div class="d-flex rounded-0 gap-3 mt-3">
+                            <div class="d-flex g-3 rounded-0 gap-3 mt-3">
                                 <xsl:for-each select="portfolio/educations/education">
-                                    <div class="flex-column align-items-start rounded-2 border-0 bg-c0 p-3">
+                                    <div class="d-flex flex-column align-items-start rounded-2 border-0 bg-c0 p-3 mt-3">
                                         <h5 class="mb-2"><xsl:value-of select="studyType" /></h5>
                                         <div class="d-flex gap-3 mt-1">
                                             <a><xsl:value-of select="startDate" /></a>
@@ -179,7 +178,7 @@
                                         <div class="mb-1">
                                             <a><xsl:value-of select="score/@text" /><xsl:value-of select="score" /></a>
                                         </div>
-                                        <div class="mt-3 d-flex justify-content-center gap-1 flex-wrap" style="min-width: fit-content; max-width: 400px;">
+                                        <div class="mt-3 d-flex gap-1 flex-wrap" style="min-width: fit-content; max-width: 400px;">
                                             <xsl:for-each select="skills/skill">
                                                 <span class="badge bg-c3 text-c5 fw-bold rounded-3 px-2"><xsl:value-of select="@text" /></span>
                                             </xsl:for-each>

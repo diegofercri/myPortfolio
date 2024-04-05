@@ -40,3 +40,14 @@ p {
     background-color: var(--c4);
     color: var(--c5);
 }
+
+@media screen and (min-width: 576px) {
+    .project-card {
+        width: 500px;
+        height: fit-content;
+    }
+    .project-card>div {
+        width: 300px !important;
+        height: auto;
+    }
+}
