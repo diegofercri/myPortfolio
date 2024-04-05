@@ -19,19 +19,19 @@ p {
     margin: 0;
 }
 
-#start div>div {
+#home div>div {
     border: solid 3px;
     border-radius: 700px;
     border-color: var(--c4);
 }
 
 @media screen and (min-width: 576px) {
-    #start div>div {
+    #home div>div {
         width: 400px;
     }
 }
 
-#start img {
+#home img {
     border-radius: 700px;
     width: 100%;
 }

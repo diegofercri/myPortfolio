@@ -3,14 +3,10 @@
 <portfolio>
     <nav>
         <home>Inicio</home>
-        <contact>Contacto</contact>
-        <location>Ubicación</location>
-        <profiles>Redes</profiles>
-        <educations>Estudios</educations>
-        <skills>Skills</skills>
-        <languages>Lenguajes</languages>
-        <interests>Intereses</interests>
         <projects>Projectos</projects>
+        <educations>Estudios</educations>
+        <languages>Idiomas</languages>
+        <contact>Contacto</contact>
         <langs>
             <lang text="Inglés" url="index.xml" img="img/en.webp"></lang>
             <lang text="Español" url="index-es.xml" img="img/es.webp"></lang>
@@ -19,7 +15,10 @@
     <basics>
         <name>Diego Fernández Criado</name>
         <label>Programador Junior</label>
-        <summary>Resumen ...</summary>
+        <summary>¡Hola! Soy Diego, un desarrollador recién inicidado con muchas ganas de aprender
+            sobre este mundo, además, no solo me encanta desarrollar, también adoro la parte de
+            diseño. Y para ello busco inspiración en la fotografía, la música, el cine y sobretodo
+            los videojuegos.</summary>
     </basics>
     <contacts text="Contacto">
         <email>diegofercri25@gmail.com</email>

@@ -4,14 +4,10 @@
 <portfolio>
     <nav>
         <home>Home</home>
-        <contact>Contact</contact>
-        <location>Location</location>
-        <profiles>Profiles</profiles>
-        <educations>Educations</educations>
-        <skills>Skills</skills>
-        <languages>Languages</languages>
-        <interests>Interest</interests>
         <projects>Projects</projects>
+        <educations>Educations</educations>
+        <languages>Languages</languages>
+        <contact>Contact</contact>
         <langs>
             <lang text="English" url="index.xml" img="img/en.webp"></lang>
             <lang text="Spanish" url="index-es.xml" img="img/es.webp"></lang>
@@ -20,7 +16,9 @@
     <basics>
         <name>Diego Fernández Criado</name>
         <label>Junior Programmer</label>
-        <summary>Summary ...</summary>
+        <summary>Hi! I am Diego, a new developer with a strong desire to learn about this field. I enjoy
+            both development and design, and I seek inspiration from photography, music, cinema, and
+            especially video games.</summary>
     </basics>
     <contacts text="Contact">
         <email text="e-mail: ">diegofercri25@gmail.com</email>

@@ -50,41 +50,49 @@
                     <img src="img/profilePicture.webp" alt="diego_fercri logo" id="navbar2-logo" class="navbar2-logo" style="border-radius: 500px"/>
                     <ul id="main-menu" class="main-menu d-flex flex-column list-unstyled m-0">
                         <li class="d-flex">
-                            <a href="./index.html#start" class="color-ed nav-link toggle-menu__close">
-                                <div class="d-flex align-items-center" data-i18n="home">
-                                    <i class="fa fa-home" aria-hidden="true"></i>
+                            <a href="#home" class="nav-link toggle-menu__close">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-home" aria-hidden="true" style="width: 1rem"></i>
                                     <xsl:value-of select="portfolio/nav/home" />
                                 </div>
                             </a>
                         </li>
                         <li class="d-flex">
-                            <a href="#contact" class="color-ed nav-link toggle-menu__close">
+                            <a href="#projects" class="nav-link toggle-menu__close">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-code" aria-hidden="true" style="width: 1rem"></i>
+                                    <xsl:value-of select="portfolio/nav/projects" />
+                                </div>
+                            </a>
+                        </li>
+                        <li class="d-flex">
+                            <a href="#educations" class="nav-link toggle-menu__close">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-book" aria-hidden="true" style="width: 1rem"></i>
+                                    <xsl:value-of select="portfolio/nav/educations" />
+                                </div>
+                            </a>
+                        </li>
+                        <li class="d-flex">
+                            <a href="#languages" class="nav-link toggle-menu__close">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-comment" aria-hidden="true" style="width: 1rem"></i>
+                                    <xsl:value-of select="portfolio/nav/languages" />
+                                </div>
+                            </a>
+                        </li>
+                        <li class="d-flex">
+                            <a href="#contact" class="nav-link toggle-menu__close">
                                 <div class="d-flex align-items-center">
                                     <i class="fa fa-address-book" aria-hidden="true"></i>
                                     <xsl:value-of select="portfolio/nav/contact" />
                                 </div>
                             </a>
                         </li>
-                        <li class="d-flex">
-                            <a href="#contact" class="color-ed nav-link toggle-menu__close">
-                                <div class="d-flex align-items-center">
-                                    <i class="fa fa-book" aria-hidden="true"></i>
-                                    <xsl:value-of select="portfolio/nav/educations" />
-                                </div>
-                            </a>
-                        </li>
-                        <li class="d-flex">
-                            <a href="#contact" class="color-ed nav-link toggle-menu__close">
-                                <div class="d-flex align-items-center">
-                                    <i class="fa fa-code" aria-hidden="true"></i>
-                                    <xsl:value-of select="portfolio/nav/projects" />
-                                </div>
-                            </a>
-                        </li>
                     </ul>
                 </nav>
                 
-                <main class="d-flex row row-cols-1 row-cols-xxl-2 m-0">
+                <main class="d-flex row row-cols-1 row-cols-xxl-2 m-3">
                     <div class="d-flex align-content-end justify-content-end position-absolute p-0" style="right: 15px; top: 15px; gap: 15px;">
                         <xsl:for-each select="portfolio/nav/langs/lang">
                             <a href="{@url}">
@@ -95,13 +103,13 @@
                             </a>
                         </xsl:for-each>
                     </div>
-                    <section id="start" class="col-xxl-12 d-flex flex-column flex-lg-row vh-100 align-items-center justify-content-evenly">
+                    <section id="home" class="col-xxl-12 d-flex flex-column flex-lg-row vh-100 align-items-center justify-content-evenly">
                         <div class="mx-5 d-flex justify-content-center">
                             <div class="p-2 d-flex justify-content-center">
                                 <img src="./img/diegoPicture.webp" alt="Diego" />
                             </div>
                         </div>
-                        <div class="d-flex flex-column justify-content-center">
+                        <div class="d-flex flex-column justify-content-center w-50">
                             <h1 class="fs-1 fw-bold"><xsl:value-of select="portfolio/basics/name" /></h1>
                             <h2 class="fs-3"><xsl:value-of select="portfolio/basics/label" /></h2>
                             <a class=""><xsl:value-of select="portfolio/basics/summary" /></a>
