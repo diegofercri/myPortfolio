@@ -37,9 +37,6 @@
                 
                 <!-- Font Awesome -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-                
-                <!-- Custom JavaScript -->
-                <script src="js/navbar.js"></script>
             </head>
             
             <body class="bg-c1">
@@ -138,9 +135,10 @@
                                                         </xsl:for-each>
                                                     </div>
                                                 </div>
-                                                <div class="d-flex gap-2 align-items-center justify-content-end w-100">
-                                                    <a class="btn btn-sm bg-c5 border-2 border-c4 text-c4 fw-bold" href="{url}" role="button" target="_blank">
+                                                <div class="d-flex gap-2 align-items-center justify-content-center w-100">
+                                                    <a class="btn btn-sm bg-c5 border-2 border-c4 text-c4" href="{url}" role="button" target="_blank">
                                                         <xsl:value-of select="url/@text" />
+                                                        <i class="fa fa-mail-forward ms-2 text-c4" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
                                             </div>
@@ -255,6 +253,9 @@
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
                         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
                         crossorigin="anonymous"></script>
+                
+                <!-- Custom JavaScript -->
+                <script src="js/navbar.js"></script>
             </body>
             
         </html>
