@@ -9,8 +9,8 @@
         <languages>Languages</languages>
         <contact>Contact</contact>
         <langs>
-            <lang text="English" url="index.xml" img="img/en.webp"></lang>
-            <lang text="Spanish" url="index-es.xml" img="img/es.webp"></lang>
+            <lang text="English" url="index-en.xml" img="img/en.webp"></lang>
+            <lang text="Spanish" url="index.xml" img="img/es.webp"></lang>
         </langs>
     </nav>
     <basics>
