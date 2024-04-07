@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="style.xsl" type="text/xsl"?>
-
-<portfolio>
+<portfolio lang="es">
     <nav>
-        <home>Home</home>
-        <projects>Projects</projects>
-        <educations>Educations</educations>
-        <languages>Languages</languages>
-        <contact>Contact</contact>
+        <home>Inicio</home>
+        <projects>Projectos</projects>
+        <educations>Estudios</educations>
+        <languages>Idiomas</languages>
+        <contact>Contacto</contact>
         <langs>
-            <lang text="English" url="index.xml" img="img/en.webp"></lang>
-            <lang text="Spanish" url="index-es.xml" img="img/es.webp"></lang>
+            <lang text="Inglés" url="index.xml" img="img/en.webp"></lang>
+            <lang text="Español" url="index-es.xml" img="img/es.webp"></lang>
         </langs>
     </nav>
     <basics>
         <name>Diego Fernández Criado</name>
-        <label>Junior Programmer</label>
-        <summary>Hi! I am Diego, a new developer with a strong desire to learn about this field. I enjoy
-            both development and design, and I seek inspiration from photography, music, cinema, and
-            especially video games.</summary>
+        <label>Programador Junior</label>
+        <summary>¡Hola! Soy Diego, un desarrollador recién inicidado con muchas ganas de aprender
+            sobre este mundo, además, no solo me encanta desarrollar, también adoro la parte de
+            diseño. Y para ello busco inspiración en la fotografía, la música, el cine y sobretodo
+            los videojuegos.</summary>
     </basics>
-    <contacts text="Contact">
-        <email text="e-mail: ">diegofercri25@gmail.com</email>
-        <location text="Location: ">
+    <contacts text="Contacto">
+        <email>diegofercri25@gmail.com</email>
+        <location>
             <countryCode>ES</countryCode>
             <region>Toledo</region>
             <url>https://www.google.com/maps/place/Toledo+Spain</url>
         </location>
-        <privacy text="Note: ">For privacy reasons, to know my exact address and mobile phone number
-            please contact me at</privacy>
+        <privacy text="Nota: ">Por razones de privacidad, si deseas conocer mi ubicación exacta y
+            teléfono móvil ponte en contacto conmigo en</privacy>
         <profiles>
             <profile>
                 <network>telegram</network>
@@ -47,15 +47,15 @@
             </profile>
         </profiles>
     </contacts>
-    <educations text="Educations">
+    <educations text="Estudios">
         <education>
             <institution>IES Azarquiel</institution>
             <url>http://www.ies-azarquiel.es</url>
-            <area>Software Development</area>
-            <studyType>Multiplatform App Development</studyType>
+            <area>Desarrollo de Software</area>
+            <studyType>Desarrollo de Aplicaciones Multiplataforma</studyType>
             <startDate>09 / 2023</startDate>
-            <endDate>On Going</endDate>
-            <score text="Score: ">to be defined</score>
+            <endDate>En Curso</endDate>
+            <score text="Nota: ">por definir</score>
             <skills>
                 <skill text="JAVA"></skill>
                 <skill text="SQL"></skill>
@@ -71,49 +71,91 @@
         <education>
             <institution>IES Azarquiel</institution>
             <url>http://www.ies-azarquiel.es</url>
-            <area>Computer Science</area>
-            <studyType>Microcomputer Systems and Networks</studyType>
+            <area>Informática</area>
+            <studyType>Sistemas Microinformáticos y Redes</studyType>
             <startDate>09 / 2021</startDate>
             <endDate>06 / 2023</endDate>
-            <score text="Score: ">8.4</score>
+            <score text="Nota: ">8.4</score>
             <skills>
                 <skill text="OFFICE"></skill>
-                <skill text="HARDWARE MAINTENANCE"></skill>
-                <skill text="SERVICES WITH LINUX"></skill>
-                <skill text="CYBERSECURITY"></skill>
-                <skill text="LOCAL NETWORKS"></skill>
+                <skill text="MANTENIMIENTO DE HARDWARE"></skill>
+                <skill text="SERVICIOS CON LINUX"></skill>
+                <skill text="CIBERSEGURIDAD"></skill>
+                <skill text="REDES LOCALES"></skill>
             </skills>
         </education>
     </educations>
     <skills>
         <skill>
-            <name>Web Development</name>
+            <name>Desarrollo Web</name>
             <level>Junior</level>
             <keywords>HTML</keywords>
             <keywords>CSS</keywords>
             <keywords>JavaScript</keywords>
         </skill>
     </skills>
-    <languages text="Languages">
+    <languages text="Idiomas">
         <language>
-            <name>Spanish</name>
-            <fluency>Native</fluency>
+            <name>Español</name>
+            <fluency>Nativo</fluency>
             <img>img/es.webp</img>
         </language>
         <language>
-            <name>English</name>
+            <name>Inglés</name>
             <fluency>B2</fluency>
             <img>img/en.webp</img>
         </language>
     </languages>
-    <projects text="Projects">
+    <projects text="Proyectos">
         <project>
             <img>img/staff19.webp</img>
-            <name>Staff19 Torneos Web</name>
-            <startDate>09 / 2024</startDate>
-            <endDate>On Going</endDate>
-            <description>Basic website for my personal project Staff19 Torneos</description>
-            <url text="Website">https://staff19torneos.com/</url>
+            <name>Staff19 Torneos</name>
+            <startDate>09 / 2023</startDate>
+            <endDate>En curso</endDate>
+            <description>Web básica para mi proyecto personal Staff19 Torneos</description>
+            <url text="Sitio Web">https://staff19torneos.com/</url>
+            <technologies>
+                <technology text="HTML"></technology>
+                <technology text="CSS"></technology>
+                <technology text="JS"></technology>
+                <technology text="BOOTSTRAP"></technology>
+            </technologies>
+        </project>
+        <project>
+            <img>img/staff19.webp</img>
+            <name>Staff19 Torneos</name>
+            <startDate>09 / 2023</startDate>
+            <endDate>En curso</endDate>
+            <description>Web básica para mi proyecto personal Staff19 Torneos</description>
+            <url text="Sitio Web">https://staff19torneos.com/</url>
+            <technologies>
+                <technology text="HTML"></technology>
+                <technology text="CSS"></technology>
+                <technology text="JS"></technology>
+                <technology text="BOOTSTRAP"></technology>
+            </technologies>
+        </project>
+        <project>
+            <img>img/staff19.webp</img>
+            <name>Staff19 Torneos</name>
+            <startDate>09 / 2023</startDate>
+            <endDate>En curso</endDate>
+            <description>Web básica para mi proyecto personal Staff19 Torneos</description>
+            <url text="Sitio Web">https://staff19torneos.com/</url>
+            <technologies>
+                <technology text="HTML"></technology>
+                <technology text="CSS"></technology>
+                <technology text="JS"></technology>
+                <technology text="BOOTSTRAP"></technology>
+            </technologies>
+        </project>
+        <project>
+            <img>img/staff19.webp</img>
+            <name>Staff19 Torneos</name>
+            <startDate>09 / 2023</startDate>
+            <endDate>En curso</endDate>
+            <description>Web básica para mi proyecto personal Staff19 Torneos</description>
+            <url text="Sitio Web">https://staff19torneos.com/</url>
             <technologies>
                 <technology text="HTML"></technology>
                 <technology text="CSS"></technology>

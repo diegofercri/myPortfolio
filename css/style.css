@@ -4,6 +4,9 @@
 }
 
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
     font-family: gabarito, monospace;
     color: var(--c5);
@@ -39,15 +42,4 @@ p {
 .btn:hover {
     background-color: var(--c4);
     color: var(--c5);
-}
-
-@media screen and (min-width: 576px) {
-    .project-card {
-        width: 500px;
-        height: fit-content;
-    }
-    .project-card>div {
-        width: 300px !important;
-        height: auto;
-    }
 }

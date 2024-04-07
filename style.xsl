@@ -16,7 +16,7 @@
     <xsl:template match="/">
         
         
-        <html lang="en">
+        <html lang="{portfolio/@lang}">
             
             <head>
                 <title>diego_fercri portfolio</title>
@@ -92,7 +92,7 @@
                     </ul>
                 </nav>
                 
-                <main class="d-flex row row-cols-1 row-cols-xxl-2 m-3">
+                <main class="d-flex row row-cols-1 row-cols-xxl-2 m-3 position-relative">
                     <div class="d-flex align-content-end justify-content-end position-absolute p-0" style="right: 15px; top: 15px; gap: 15px;">
                         <xsl:for-each select="portfolio/nav/langs/lang">
                             <a href="{@url}">
@@ -119,17 +119,19 @@
                     <section id="projects" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
                         <div>
                             <a class="fs-3"><xsl:value-of select="portfolio/projects/@text" /></a>
-                            <div class="d-flex rounded-0 gap-3 mt-3">
+                            <div class="row-cols-1 row-cols-md-3 row-cols-xl-4 d-flex flex-wrap justify-content-center mt-3">
                                 <xsl:for-each select="portfolio/projects/project">
-                                    <div class="rounded-2 border-0 border-c5 bg-c0 p-3">
-                                        <div class="d-flex project-card w-100">
-                                            <img src="{img}" alt="{name}" class="rounded-1 h-auto d-none d-md-block" style="width: 200px;"/>
-                                            <div class="ms-md-3 d-flex flex-column justify-content-between gap-3 w-100">
+                                    <div class="col bg-c1 p-2">
+                                        <div class="bg-c0 card border-0 p-3">
+                                            <div>
+                                                <img src="{img}" alt="{name}" class="rounded-1 w-100"/>
+                                            </div>
+                                            <div class="mt-3">
                                                 <div>
-                                                    <h5 class="m-0"><xsl:value-of select="name" /></h5>
+                                                    <h5><xsl:value-of select="name" /></h5>
                                                 </div>
                                                 <div>
-                                                    <div class="d-flex gap-3">
+                                                    <div class="d-flex gap-3 mt-2">
                                                         <a><xsl:value-of select="startDate" /></a>
                                                         <a>-</a>
                                                         <a><xsl:value-of select="endDate" /></a>
@@ -143,7 +145,7 @@
                                                         </xsl:for-each>
                                                     </div>
                                                 </div>
-                                                <div class="d-flex gap-2 align-items-center justify-content-end w-100">
+                                                <div class="d-flex justify-content-end w-100 mt-3">
                                                     <a class="btn btn-sm bg-c5 border-2 border-c4 text-c4 fw-bold" href="{url}" role="button" target="_blank">
                                                         <xsl:value-of select="url/@text" />
                                                     </a>
