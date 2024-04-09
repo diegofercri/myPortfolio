@@ -55,11 +55,3 @@ p {
 .lk:hover i {
     color: var(--c4C) !important;
 }
-
-.lk:hover div {
-    color: var(--c4C) !important;
-}
-
-.lang:hover {
-    color: var(--c4C) !important;
-}
