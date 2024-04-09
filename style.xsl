@@ -132,7 +132,7 @@
                                                         <h5><xsl:value-of select="name" /></h5>
                                                     </div>
                                                     <div>
-                                                        <div class="d-flex gap-3 mt-2">
+                                                        <div class="d-flex gap-2 mt-2">
                                                             <a><xsl:value-of select="startDate" /></a>
                                                             <a>-</a>
                                                             <a><xsl:value-of select="endDate" /></a>
@@ -170,7 +170,7 @@
                                         <div class="card border-0">
                                             <div class="card-body">
                                                 <h5 class="mb-2"><xsl:value-of select="studyType" /></h5>
-                                                <div class="d-flex gap-3 mt-1">
+                                                <div class="d-flex gap-2 mt-1">
                                                     <a><xsl:value-of select="startDate" /></a>
                                                     <a>-</a>
                                                     <a><xsl:value-of select="endDate" /></a>
