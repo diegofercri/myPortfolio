@@ -50,7 +50,7 @@
                     <img src="img/profilePicture.webp" alt="diego_fercri logo" id="navbar2-logo" class="navbar2-logo" style="border-radius: 500px"/>
                     <ul id="main-menu" class="main-menu d-flex flex-column list-unstyled m-0">
                         <li class="d-flex">
-                            <a href="#home" class="nav-link toggle-menu__close">
+                            <a href="#home" class=" toggle-menu__close">
                                 <div class="d-flex align-items-center">
                                     <i class="fa fa-home" aria-hidden="true" style="width: 1rem"></i>
                                     <xsl:value-of select="portfolio/nav/home" />
@@ -92,10 +92,10 @@
                     </ul>
                 </nav>
                 
-                <main class="d-flex row row-cols-1 row-cols-xxl-2 m-3">
-                    <div class="d-flex align-content-end justify-content-end position-absolute p-0" style="right: 15px; top: 15px; gap: 15px;">
+                <main class="d-flex row row-cols-1 row-cols-xxl-2 m-3 mt-0">
+                    <div class="d-flex align-content-end justify-content-end position-absolute p-0" style="margin: 15px; right: 0; top: 0; gap: 15px;">
                         <xsl:for-each select="portfolio/nav/langs/lang">
-                            <a href="{@url}">
+                            <a href="{@url}" class="lang">
                                 <div class="d-flex align-items-center gap-2 fs-5">
                                     <img src="{@img}" alt="{@text}" style="border-radius: 50px; height: 30px;"/>
                                     <xsl:value-of select="@text" />
@@ -179,7 +179,7 @@
                                                     <a><xsl:value-of select="area" /></a>
                                                 </div>
                                                 <div class="d-flex gap-2 align-items-center">
-                                                    <a href="{url}" target="_blank"><xsl:value-of select="institution" />
+                                                    <a href="{url}" target="_blank" class="lk"><xsl:value-of select="institution" />
                                                         <i class="fa fa-mail-forward ms-2" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -228,7 +228,7 @@
                                     <div class="d-flex align-items-center justify-content-center" style="width: 20px;">
                                         <i class="fa fa-envelope" aria-hidden="true"></i>
                                     </div>
-                                    <a href="mailto:{portfolio/contacts/email}" target="_blank">
+                                    <a href="mailto:{portfolio/contacts/email}" target="_blank" class="lk">
                                         <xsl:value-of select="portfolio/contacts/email" />
                                     </a>
                                 </li>
@@ -237,7 +237,7 @@
                                         <div class="d-flex align-items-center justify-content-center" style="width: 20px;">
                                             <i class="fa fa-{network}" aria-hidden="true"></i>
                                         </div>
-                                        <a href="{url}" target="_blank">
+                                        <a href="{url}" target="_blank" class="lk">
                                             <xsl:value-of select="username" />
                                         </a>
                                     </li>
@@ -246,7 +246,7 @@
                                     <div class="d-flex align-items-center justify-content-center" style="width: 20px;">
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                                     </div>
-                                    <a href="{portfolio/contacts/location/url}" target="_blank">
+                                    <a href="{portfolio/contacts/location/url}" target="_blank" class="lk">
                                         <xsl:value-of select="portfolio/contacts/location/region" />, 
                                         <xsl:value-of select="portfolio/contacts/location/countryCode" />
                                     </a>
@@ -254,7 +254,7 @@
                                 <li class="fs-6 mt-4">
                                     <a><xsl:value-of select="portfolio/contacts/privacy/@text" />
                                         <a><xsl:value-of select="portfolio/contacts/privacy" />: </a>
-                                        <a href="mailto:{portfolio/contacts/email}" target="_blank"><xsl:value-of select="portfolio/contacts/email" /></a>
+                                        <a href="mailto:{portfolio/contacts/email}" target="_blank" class="lk"><xsl:value-of select="portfolio/contacts/email" /></a>
                                     </a>
                                 </li>
                             </ul>

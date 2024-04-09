@@ -43,3 +43,23 @@ p {
     background-color: var(--c4);
     color: var(--c5);
 }
+
+.lk:hover {
+    color: var(--c4C) !important;
+}
+
+.lk:hover a {
+    color: var(--c4C) !important;
+}
+
+.lk:hover i {
+    color: var(--c4C) !important;
+}
+
+.lk:hover div {
+    color: var(--c4C) !important;
+}
+
+.lang:hover {
+    color: var(--c4C) !important;
+}

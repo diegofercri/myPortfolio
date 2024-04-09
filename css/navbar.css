@@ -11,6 +11,11 @@
   flex-direction: column;
   transform: translateX(-205px);
   transition: all 0.4s;
+  scrollbar-width: none; /* Para Firefox */
+}
+
+.navbar2::-webkit-scrollbar { 
+  display: none; /* Para Chrome, Safari y Opera */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -108,7 +113,8 @@
 .toggle-menu {
   position: absolute;
   top: 0;
-  left: 220px;
+  margin: 15px;
+  left: 205px;
   font-size: 1.5rem;
   z-index: 100;
   align-items: center;
@@ -165,11 +171,10 @@
   border-radius: 5rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
   .navbar2--show #toggle-menu__close {
     display: none;
   }
-
 }
 
 .main-menu {
@@ -179,6 +184,10 @@
 
 .main-menu>li {
   font-size: 1.2rem;
+}
+
+.main-menu>li:hover {
+  margin-left: .5rem;
 }
 
 .main-menu>li>a {
