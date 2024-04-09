@@ -127,7 +127,6 @@
 
 .toggle-menu__open {
   display: flex;
-  top: 15px;
   height: 3rem;
   width: 3rem;
   border-radius: 5rem;
