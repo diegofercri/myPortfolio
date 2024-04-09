@@ -92,7 +92,7 @@
                     </ul>
                 </nav>
                 
-                <main class="d-flex row row-cols-1 row-cols-xxl-2 m-3 position-relative">
+                <main class="d-flex row row-cols-1 row-cols-xxl-2 m-3">
                     <div class="d-flex align-content-end justify-content-end position-absolute p-0" style="right: 15px; top: 15px; gap: 15px;">
                         <xsl:for-each select="portfolio/nav/langs/lang">
                             <a href="{@url}">
