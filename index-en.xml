@@ -15,7 +15,7 @@
     </nav>
     <basics>
         <name>Diego Fernández Criado</name>
-        <label>Junior Programmer</label>
+        <label>Trainee Programmer</label>
         <summary>Hi! I am Diego, a new developer with a strong desire to learn about this field. I enjoy
             both development and design, and I seek inspiration from photography, music, cinema, and
             especially video games.</summary>
@@ -79,7 +79,7 @@
             <skills>
                 <skill text="OFFICE"></skill>
                 <skill text="HARDWARE MAINTENANCE"></skill>
-                <skill text="SERVICES WITH LINUX"></skill>
+                <skill text="LINUX SERVICES"></skill>
                 <skill text="CYBERSECURITY"></skill>
                 <skill text="LOCAL NETWORKS"></skill>
             </skills>
@@ -88,7 +88,7 @@
     <skills>
         <skill>
             <name>Web Development</name>
-            <level>Junior</level>
+            <level>Trainee</level>
             <keywords>HTML</keywords>
             <keywords>CSS</keywords>
             <keywords>JavaScript</keywords>

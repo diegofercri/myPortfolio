@@ -14,7 +14,7 @@
     </nav>
     <basics>
         <name>Diego Fernández Criado</name>
-        <label>Programador Junior</label>
+        <label>Programador Trainee</label>
         <summary>¡Hola! Soy Diego, un desarrollador recién inicidado con muchas ganas de aprender
             sobre este mundo, además, no solo me encanta desarrollar, también adoro la parte de
             diseño. Y para ello busco inspiración en la fotografía, la música, el cine y sobretodo
@@ -79,7 +79,7 @@
             <skills>
                 <skill text="OFFICE"></skill>
                 <skill text="MANTENIMIENTO DE HARDWARE"></skill>
-                <skill text="SERVICIOS CON LINUX"></skill>
+                <skill text="SERVICIOS LINUX"></skill>
                 <skill text="CIBERSEGURIDAD"></skill>
                 <skill text="REDES LOCALES"></skill>
             </skills>
@@ -88,7 +88,7 @@
     <skills>
         <skill>
             <name>Desarrollo Web</name>
-            <level>Junior</level>
+            <level>Trainee</level>
             <keywords>HTML</keywords>
             <keywords>CSS</keywords>
             <keywords>JavaScript</keywords>
