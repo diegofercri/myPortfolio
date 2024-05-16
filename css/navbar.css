@@ -1,3 +1,8 @@
+.navbar a {
+  text-decoration: none;
+  color: var(--c8);
+}
+
 .navbar2 {
   position: fixed;
   top: 0;
@@ -11,11 +16,12 @@
   flex-direction: column;
   transform: translateX(-205px);
   transition: all 0.4s;
-  scrollbar-width: none; /* Para Firefox */
+  scrollbar-width: none;
 }
 
-.navbar2::-webkit-scrollbar { 
-  display: none; /* Para Chrome, Safari y Opera */
+.navbar2::-webkit-scrollbar {
+  /* For unupdated browsers */
+  display: none;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -113,7 +119,6 @@
 .toggle-menu {
   position: absolute;
   top: 0;
-  margin: 15px;
   left: 205px;
   font-size: 1.5rem;
   z-index: 100;
@@ -127,6 +132,7 @@
 
 .toggle-menu__open {
   display: flex;
+  margin: 1rem;
   height: 3rem;
   width: 3rem;
   border-radius: 5rem;
@@ -177,16 +183,21 @@
 }
 
 .main-menu {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
   gap: 1rem;
   transition: all 0.4s;
 }
 
 .main-menu>li {
+  display: flex;
   font-size: 1.2rem;
 }
 
 .main-menu>li:hover {
-  margin-left: .5rem;
+  margin-left: .3rem;
+  transition: all 0.2s;
 }
 
 .main-menu>li>a {
@@ -194,7 +205,12 @@
   padding: 1rem 1.5rem;
 }
 
-.main-menu i {
+.main-menu>li>a>div {
+  display: flex;
+  align-items: center;
+}
+
+.main-menu>li>a>div>i {
   margin-right: 1.5rem;
 }
 
