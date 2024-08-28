@@ -66,12 +66,12 @@
     border-color: var(--c4);
 }
 
-.border-c5 {
-    border-color: var(--c5);
-}
-
 .text-c4 {
     color: var(--c4);
+}
+
+.border-c5 {
+    border-color: var(--c5);
 }
 
 .bg-c7 {

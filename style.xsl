@@ -115,7 +115,7 @@
                             <a class="me-md-2 me-lg-5"><xsl:value-of select="portfolio/basics/summary" /></a>
                         </div>
                     </section>
-                    <hr class="w-75 mx-auto rounded-5 border-3 border-c4B" />
+                    <hr class="w-75 mx-auto rounded-5 border-3 border-c6" />
                     <section id="projects" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
                         <div>
                             <a class="fs-3"><xsl:value-of select="portfolio/projects/@text" /></a>
@@ -142,13 +142,13 @@
                                                         </div>
                                                         <div class="d-flex gap-1 flex-wrap w-100 mt-2">
                                                             <xsl:for-each select="technologies/technology">
-                                                                <span class="badge bg-c3 text-c5 fw-bold rounded-3 px-2"><xsl:value-of
+                                                                <span class="badge bg-c3 text-c7 fw-bold rounded-3 px-2"><xsl:value-of
                                                                         select="@text" /></span>
                                                             </xsl:for-each>
                                                         </div>
                                                     </div>
                                                     <div class="d-flex justify-content-end w-100 mt-3">
-                                                        <a class="btn btn-sm bg-c5 border-2 border-c4 text-c4 fw-bold" href="{url}"
+                                                        <a class="btn btn-sm bg-c7 border-2 border-c4 text-c4 fw-bold" href="{url}"
                                                            role="button" target="_blank">
                                                             <xsl:value-of select="url/@text" />
                                                         </a>
@@ -188,7 +188,7 @@
                                                 </div>
                                                 <div class="mt-3 d-flex gap-1 flex-wrap" style="min-width: fit-content; max-width: 400px;">
                                                     <xsl:for-each select="skills/skill">
-                                                        <span class="badge bg-c3 text-c5 fw-bold rounded-3 px-2"><xsl:value-of select="@text" /></span>
+                                                        <span class="badge bg-c3 text-c7 fw-bold rounded-3 px-2"><xsl:value-of select="@text" /></span>
                                                     </xsl:for-each>
                                                 </div>
                                             </div>
