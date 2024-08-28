@@ -20,33 +20,38 @@
             diseño. Y para ello busco inspiración en la fotografía, la música, el cine y sobretodo
             los videojuegos.</summary>
     </basics>
-    <contacts text="Contacto">
-        <email>diegofercri25@gmail.com</email>
-        <location>
-            <countryCode>ES</countryCode>
-            <region>Toledo</region>
-            <url>https://www.google.com/maps/place/Toledo+Spain</url>
-        </location>
-        <privacy text="Nota: ">Por razones de privacidad, si deseas conocer mi ubicación exacta y
-            teléfono móvil ponte en contacto conmigo en</privacy>
-        <profiles>
-            <profile>
-                <network>telegram</network>
-                <username>@diego_fercri</username>
-                <url>https://t.me/diego_fercri</url>
-            </profile>
-            <profile>
-                <network>instagram</network>
-                <username>@diego_fercri</username>
-                <url>https://www.instagram.com/diego_fercri</url>
-            </profile>
-            <profile>
-                <network>github</network>
-                <username>@diegofercri</username>
-                <url>https://github.com/diegofercri</url>
-            </profile>
-        </profiles>
-    </contacts>
+    <projects text="Proyectos">
+        <project>
+            <img>https://staff19torneos.com/wp-content/uploads/2024/08/logo-circulo.png</img>
+            <name>@staff19torneos</name>
+            <startDate>29/05/2024</startDate>
+            <endDate>10/06/2024</endDate>
+            <description>Web completa con formularios de inscripcion y venta de entradas para el proyecto Staff 19 Torneos</description>
+            <url text="Sitio Web">https://staff19torneos.com</url>
+            <technologies>
+                <technology text="HTML"></technology>
+                <technology text="CSS"></technology>
+                <technology text="JS"></technology>
+                <technology text="WORDPRESS"></technology>
+                <technology text="BOOTSTRAP"></technology>
+            </technologies>
+        </project>
+        <project>
+            <img>https://staff19torneos.com/wp-content/uploads/2024/08/logo-ligafs-rrss-circulo-negativo-semi.png</img>
+            <name>@ligacabanasdelasagrafs</name>
+            <startDate>16/07/2024</startDate>
+            <endDate>20/07/2024</endDate>
+            <description>Web completa con formularios de inscripcion para el proyecto Liga Cabañas de la Sagra FS</description>
+            <url text="Sitio Web">https://ligacabanasdelasagrafs.com</url>
+            <technologies>
+                <technology text="HTML"></technology>
+                <technology text="CSS"></technology>
+                <technology text="JS"></technology>
+                <technology text="WORDPRESS"></technology>
+                <technology text="BOOTSTRAP"></technology>
+            </technologies>
+        </project>
+    </projects>
     <educations text="Estudios">
         <education>
             <institution>IES Azarquiel</institution>
@@ -79,7 +84,7 @@
             <skills>
                 <skill text="OFFICE"></skill>
                 <skill text="MANTENIMIENTO DE HARDWARE"></skill>
-                <skill text="SERVICIOS LINUX"></skill>
+                <skill text="SERVICIOS EN RED"></skill>
                 <skill text="CIBERSEGURIDAD"></skill>
                 <skill text="REDES LOCALES"></skill>
             </skills>
@@ -106,20 +111,31 @@
             <img>img/en.webp</img>
         </language>
     </languages>
-    <projects text="Proyectos">
-        <project>
-            <img>img/staff19.webp</img>
-            <name>Staff19 Torneos</name>
-            <startDate>09 / 2023</startDate>
-            <endDate>En curso</endDate>
-            <description>Web básica para mi proyecto personal Staff19 Torneos</description>
-            <url text="Sitio Web">https://staff19torneos.com/</url>
-            <technologies>
-                <technology text="HTML"></technology>
-                <technology text="CSS"></technology>
-                <technology text="JS"></technology>
-                <technology text="BOOTSTRAP"></technology>
-            </technologies>
-        </project>
-    </projects>
+    <contacts text="Contacto">
+        <email>diegofercri25@gmail.com</email>
+        <location>
+            <countryCode>ES</countryCode>
+            <region>Toledo</region>
+            <url>https://www.google.com/maps/place/Toledo+Spain</url>
+        </location>
+        <privacy text="Nota: ">Por razones de privacidad, si deseas conocer mi ubicación exacta y
+            teléfono móvil ponte en contacto conmigo en</privacy>
+        <profiles>
+            <profile>
+                <network>telegram</network>
+                <username>@diegofercri</username>
+                <url>https://t.me/diegofercri</url>
+            </profile>
+            <profile>
+                <network>instagram</network>
+                <username>@diegofercri</username>
+                <url>https://www.instagram.com/diegofercri</url>
+            </profile>
+            <profile>
+                <network>github</network>
+                <username>@diegofercri</username>
+                <url>https://github.com/diegofercri</url>
+            </profile>
+        </profiles>
+    </contacts>
 </portfolio>
