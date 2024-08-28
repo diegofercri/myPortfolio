@@ -9,16 +9,16 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: gabarito, monospace;
-    color: var(--c5);
+    color: var(--c7);
 }
 
 a {
     text-decoration: none;
-    color: var(--c5);
+    color: var(--c7);
 }
 
 p {
-    color: var(--c5B);
+    color: var(--c8);
     margin: 0;
 }
 
@@ -41,17 +41,17 @@ p {
 
 .btn:hover {
     background-color: var(--c4);
-    color: var(--c5);
+    color: var(--c7);
 }
 
 .lk:hover {
-    color: var(--c4C) !important;
+    color: var(--c6) !important;
 }
 
 .lk:hover a {
-    color: var(--c4C) !important;
+    color: var(--c6) !important;
 }
 
 .lk:hover i {
-    color: var(--c4C) !important;
+    color: var(--c6) !important;
 }

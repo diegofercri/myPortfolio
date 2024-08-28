@@ -4,10 +4,10 @@
     --c2: #ffedcd;
     --c3: #fdeac4;
     --c4: #e9d09f;
-    --c4B: #b98f3c;
-    --c4C: #e0b662;
-    --c5: #252525;
-    --c5B:#505050;
+    --c5: #b98f3c;
+    --c6: #e0b662;
+    --c7: #252525;
+    --c8: #505050;
 }
 
 .bg-c0 {
@@ -66,26 +66,26 @@
     border-color: var(--c4);
 }
 
-.border-c4B {
-    border-color: var(--c4B);
+.border-c5 {
+    border-color: var(--c5);
 }
 
 .text-c4 {
     color: var(--c4);
 }
 
-.bg-c5 {
-    background-color: var(--c5);
+.bg-c7 {
+    background-color: var(--c7);
 }
 
-.border-c5 {
-    border-color: var(--c5);
+.border-c7 {
+    border-color: var(--c7);
 }
 
-.text-c5 {
-    color: var(--c5);
+.text-c7 {
+    color: var(--c7);
 }
 
-.text-c5B {
-    color: var(--c5B);
+.text-c8 {
+    color: var(--c8);
 }
