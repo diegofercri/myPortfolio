@@ -22,7 +22,7 @@
     </basics>
     <projects text="Proyectos">
         <project>
-            <img>https://staff19torneos.com/wp-content/uploads/2024/08/logo-circulo.png</img>
+            <img>/img/staff19torneos.webp</img>
             <name>@staff19torneos</name>
             <startDate>29/05/2024</startDate>
             <endDate>10/06/2024</endDate>
@@ -37,7 +37,7 @@
             </technologies>
         </project>
         <project>
-            <img>https://staff19torneos.com/wp-content/uploads/2024/08/logo-ligafs-rrss-circulo-negativo-semi.png</img>
+            <img>/img/ligacabanasdelasagrafs.webp</img>
             <name>@ligacabanasdelasagrafs</name>
             <startDate>16/07/2024</startDate>
             <endDate>20/07/2024</endDate>

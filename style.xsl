@@ -1,16 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE xsl:stylesheet  [
-<!ENTITY nbsp   "&#160;">
-<!ENTITY copy   "&#169;">
-<!ENTITY reg    "&#174;">
-<!ENTITY trade  "&#8482;">
-<!ENTITY mdash  "&#8212;">
-<!ENTITY ldquo  "&#8220;">
-<!ENTITY rdquo  "&#8221;"> 
-<!ENTITY pound  "&#163;">
-<!ENTITY yen    "&#165;">
-<!ENTITY euro   "&#8364;">
-]>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" encoding="utf-8" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>
     <xsl:template match="/">
@@ -25,8 +13,7 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 
                 <!-- Bootstrap CSS v5.2.1 -->
-                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-                      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
                 
                 <!-- Custom CSS -->
                 <link rel="stylesheet" href="css/style.css" />
@@ -47,7 +34,7 @@
                     <div id="toggle-menu__close" class="toggle-menu toggle-menu__close">
                         <i class="fa fa-close" aria-hidden="true"></i>
                     </div>
-                    <img src="img/profilePicture.webp" alt="diego_fercri logo" id="navbar2-logo" class="navbar2-logo" style="border-radius: 500px"/>
+                    <img src="img/diegoPicture.webp" alt="diego_fercri logo" id="navbar2-logo" class="navbar2-logo" style="border-radius: 500px"/>
                     <ul id="main-menu" class="main-menu d-flex flex-column list-unstyled m-0">
                         <li class="d-flex">
                             <a href="#home" class=" toggle-menu__close">
@@ -115,45 +102,22 @@
                             <a class="me-md-2 me-lg-5"><xsl:value-of select="portfolio/basics/summary" /></a>
                         </div>
                     </section>
-                    <hr class="w-75 mx-auto rounded-5 border-3 border-c6" />
+                    <hr class="w-75 mx-auto rounded-5 border-3" />
                     <section id="projects" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
                         <div>
                             <a class="fs-3"><xsl:value-of select="portfolio/projects/@text" /></a>
                             <div class="row">
                                 <xsl:for-each select="portfolio/projects/project">
                                     <div class="col-12 col-md-4 col-xxl-3 mt-4">
-                                        <div class="card border-0">
-                                            <div class="card-body">
-                                                <div>
-                                                    <img src="{img}" alt="{name}" class="rounded-1 w-100" />
-                                                </div>
-                                                <div class="mt-3">
-                                                    <div>
-                                                        <h5><xsl:value-of select="name" /></h5>
-                                                    </div>
-                                                    <div>
-                                                        <div class="d-flex gap-2 mt-2">
-                                                            <a><xsl:value-of select="startDate" /></a>
-                                                            <a>-</a>
-                                                            <a><xsl:value-of select="endDate" /></a>
-                                                        </div>
-                                                        <div>
-                                                            <p><xsl:value-of select="description" /></p>
-                                                        </div>
-                                                        <div class="d-flex gap-1 flex-wrap w-100 mt-2">
-                                                            <xsl:for-each select="technologies/technology">
-                                                                <span class="badge bg-c3 text-c7 fw-bold rounded-3 px-2"><xsl:value-of
-                                                                        select="@text" /></span>
-                                                            </xsl:for-each>
-                                                        </div>
-                                                    </div>
-                                                    <div class="d-flex justify-content-end w-100 mt-3">
-                                                        <a class="btn btn-sm bg-c7 border-2 border-c4 text-c4 fw-bold" href="{url}"
-                                                           role="button" target="_blank">
-                                                            <xsl:value-of select="url/@text" />
-                                                        </a>
-                                                    </div>
-                                                </div>
+                                        <div class="card2">
+                                            <div class="wrapper">
+                                                <div class="banner-image" style="background-image: url({img});"></div>
+                                                <h5><xsl:value-of select="name" /></h5>
+                                                <p><xsl:value-of select="description" /></p>
+                                            </div>
+                                            <div class="button-wrapper">
+                                                <a href="" class="btn outline">Detalles</a>
+                                                <a href="{url}" class="btn fill" target="_blank">Sitio Web</a>
                                             </div>
                                         </div>
                                     </div>

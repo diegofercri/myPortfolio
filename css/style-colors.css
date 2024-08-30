@@ -4,10 +4,14 @@
     --c2: #ffedcd;
     --c3: #fdeac4;
     --c4: #e9d09f;
-    --c5: #b98f3c;
-    --c6: #e0b662;
+    --c5: #f8b376;
+    --c6: #f67c5a;
     --c7: #252525;
     --c8: #505050;
+}
+
+body {
+    background: linear-gradient(60deg, var(--c5), var(--c6));
 }
 
 .bg-c0 {

@@ -55,6 +55,7 @@
     justify-content: center;
     gap: 13vh;
     transform: translateX(0);
+    background-color: transparent;
   }
 
   main {
@@ -192,6 +193,7 @@
 .main-menu>li {
   display: flex;
   font-size: 1.2rem;
+  transition: all 0.2s;
 }
 
 .main-menu>li:hover {
