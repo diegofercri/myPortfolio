@@ -32,7 +32,7 @@
             <technologies>
                 <technology text="HTML"></technology>
                 <technology text="CSS"></technology>
-                <technology text="JS"></technology>
+                <technology text="JAVASCRIPT"></technology>
                 <technology text="WORDPRESS"></technology>
                 <technology text="BOOTSTRAP"></technology>
             </technologies>
@@ -47,7 +47,6 @@
             <technologies>
                 <technology text="HTML"></technology>
                 <technology text="CSS"></technology>
-                <technology text="JS"></technology>
                 <technology text="WORDPRESS"></technology>
                 <technology text="BOOTSTRAP"></technology>
             </technologies>
@@ -68,10 +67,11 @@
                 <skill text="PL-SQL"></skill>
                 <skill text="HTML"></skill>
                 <skill text="CSS"></skill>
-                <skill text="JS"></skill>
+                <skill text="JAVASCRIPT"></skill>
                 <skill text="XML"></skill>
                 <skill text="XSL"></skill>
                 <skill text="BOOTSTRAP"></skill>
+                <skill text="WORDPRESS"></skill>
             </skills>
         </education>
         <education>
@@ -84,10 +84,12 @@
             <score text="Score: ">8.4</score>
             <skills>
                 <skill text="OFFICE"></skill>
-                <skill text="HARDWARE MAINTENANCE"></skill>
-                <skill text="LINUX SERVICES"></skill>
-                <skill text="CYBERSECURITY"></skill>
-                <skill text="LOCAL NETWORKS"></skill>
+                <skill text="MANTENIMIENTO DE HARDWARE"></skill>
+                <skill text="SERVICIOS EN RED"></skill>
+                <skill text="CIBERSEGURIDAD"></skill>
+                <skill text="REDES LOCALES"></skill>
+                <skill text="CMS"></skill>
+                <skill text="LINUX"></skill>
             </skills>
         </education>
     </educations>
