@@ -110,13 +110,13 @@
                                 <xsl:for-each select="portfolio/projects/project">
                                     <div class="col-12 col-md-4 col-xxl-3 mt-4">
                                         <div class="card2">
-                                            <div class="wrapper">
-                                                <div class="banner-image" style="background-image: url({img});"></div>
+                                            <div class="card2-wrapper">
+                                                <div class="card2-banner-image" style="background-image: url({img});"></div>
                                                 <h5><xsl:value-of select="name" /></h5>
                                                 <p><xsl:value-of select="description" /></p>
                                             </div>
-                                            <div class="button-wrapper">
-                                                <a href="" class="btn outline">Detalles</a>
+                                            <div class="card2-button-wrapper">
+                                                <!--<a href="" class="btn outline">Detalles</a>-->
                                                 <a href="{url}" class="btn fill" target="_blank">Sitio Web</a>
                                             </div>
                                         </div>
@@ -131,30 +131,22 @@
                             <div class="row">
                                 <xsl:for-each select="portfolio/educations/education">
                                     <div class="col-12 col-md-6 mt-4">
-                                        <div class="card border-0">
-                                            <div class="card-body">
-                                                <h5 class="mb-2"><xsl:value-of select="studyType" /></h5>
-                                                <div class="d-flex gap-2 mt-1">
-                                                    <a><xsl:value-of select="startDate" /></a>
-                                                    <a>-</a>
-                                                    <a><xsl:value-of select="endDate" /></a>
-                                                </div>
+                                        <div class="card3">
+                                            <div>
+                                                <h5><xsl:value-of select="studyType" /></h5>
+                                            </div>
+                                            <div class="card3-wrapper">
                                                 <div>
-                                                    <a><xsl:value-of select="area" /></a>
+                                                    <p>Fecha de inicio: <xsl:value-of select="startDate" /></p>
+                                                    <p>Fecha de finalización: <xsl:value-of select="endDate" /></p>
+                                                    <p>Área de estudio: <xsl:value-of select="area" /></p>
+                                                    <p>Centro: <xsl:value-of select="institution" /></p>
+                                                    <p>Nota: <xsl:value-of select="score" /></p>
                                                 </div>
-                                                <div class="d-flex gap-2 align-items-center">
-                                                    <a href="{url}" target="_blank" class="lk"><xsl:value-of select="institution" />
-                                                        <i class="fa fa-mail-forward ms-2" aria-hidden="true"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="mb-1">
-                                                    <a><xsl:value-of select="score/@text" /><xsl:value-of select="score" /></a>
-                                                </div>
-                                                <div class="mt-3 d-flex gap-1 flex-wrap" style="min-width: fit-content; max-width: 400px;">
-                                                    <xsl:for-each select="skills/skill">
-                                                        <span class="badge bg-c3 text-c7 fw-bold rounded-3 px-2"><xsl:value-of select="@text" /></span>
-                                                    </xsl:for-each>
-                                                </div>
+                                            </div>
+                                            <div class="card3-button-wrapper">
+                                                <!--<a href="" class="btn outline">Detalles</a>-->
+                                                <a href="{url}" class="btn fill" target="_blank">IES Azarquiel</a>
                                             </div>
                                         </div>
                                     </div>

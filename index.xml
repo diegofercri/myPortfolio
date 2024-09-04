@@ -26,7 +26,7 @@
             <name>@staff19torneos</name>
             <startDate>29/05/2024</startDate>
             <endDate>10/06/2024</endDate>
-            <description>Web completa con formularios de inscripcion y venta de entradas para el proyecto Staff 19 Torneos</description>
+            <description>Web completa con formularios de inscripcion y venta de entradas para el proyecto "Staff 19 Torneos"</description>
             <url text="Sitio Web">https://staff19torneos.com</url>
             <technologies>
                 <technology text="HTML"></technology>
@@ -41,7 +41,7 @@
             <name>@ligacabanasdelasagrafs</name>
             <startDate>16/07/2024</startDate>
             <endDate>20/07/2024</endDate>
-            <description>Web completa con formularios de inscripcion para el proyecto Liga Cabañas de la Sagra FS</description>
+            <description>Web completa con formularios de inscripcion para el proyecto "Liga Cabañas de la Sagra FS"</description>
             <url text="Sitio Web">https://ligacabanasdelasagrafs.com</url>
             <technologies>
                 <technology text="HTML"></technology>
