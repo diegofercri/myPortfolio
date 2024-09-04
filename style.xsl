@@ -7,7 +7,7 @@
         <html lang="{portfolio/@lang}">
             
             <head>
-                <title>diego_fercri portfolio</title>
+                <title>diegofercri.dev</title>
                 <!-- Required meta tags -->
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -34,7 +34,7 @@
                     <div id="toggle-menu__close" class="toggle-menu toggle-menu__close">
                         <i class="fa fa-close" aria-hidden="true"></i>
                     </div>
-                    <img src="img/diegoPicture.webp" alt="diego_fercri logo" id="navbar2-logo" class="navbar2-logo" style="border-radius: 500px"/>
+                    <img src="{portfolio/basics/profilePicture}" alt="diego_fercri logo" id="navbar2-logo" class="navbar2-logo" style="border-radius: 500px"/>
                     <ul id="main-menu" class="main-menu d-flex flex-column list-unstyled m-0">
                         <li class="d-flex">
                             <a href="#home" class=" toggle-menu__close">
@@ -93,7 +93,7 @@
                     <section id="home" class="col-xxl-12 d-flex flex-column flex-lg-row vh-100 align-items-center justify-content-evenly">
                         <div class="col-12 col-md-6 d-flex justify-content-center">
                             <div class="p-2 d-flex justify-content-center">
-                                <img src="img/diegoPicture.webp" alt="Diego" />
+                                <img src="{portfolio/basics/profilePicture}" alt="Diego" />
                             </div>
                         </div>
                         <div class="col-12 col-md-6 d-flex flex-column justify-content-center">

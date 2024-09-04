@@ -14,6 +14,7 @@
         </langs>
     </nav>
     <basics>
+        <profilePicture>img/profilePicture.webp</profilePicture>
         <name>Diego Fernández Criado</name>
         <label>Trainee Programmer</label>
         <summary>Hi! I am Diego, a new developer with a strong desire to learn about this field. I enjoy

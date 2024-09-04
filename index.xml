@@ -13,6 +13,7 @@
         </langs>
     </nav>
     <basics>
+        <profilePicture>img/diegoPicture.webp</profilePicture>
         <name>Diego Fernández Criado</name>
         <label>Programador Trainee</label>
         <summary>¡Hola! Soy Diego, un desarrollador recién inicidado con muchas ganas de aprender
@@ -67,10 +68,11 @@
                 <skill text="PL-SQL"></skill>
                 <skill text="HTML"></skill>
                 <skill text="CSS"></skill>
-                <skill text="JS"></skill>
+                <skill text="JAVASCRIPT"></skill>
                 <skill text="XML"></skill>
                 <skill text="XSL"></skill>
                 <skill text="BOOTSTRAP"></skill>
+                <skill text="WORDPRESS"></skill>
             </skills>
         </education>
         <education>
@@ -87,6 +89,8 @@
                 <skill text="SERVICIOS EN RED"></skill>
                 <skill text="CIBERSEGURIDAD"></skill>
                 <skill text="REDES LOCALES"></skill>
+                <skill text="CMS"></skill>
+                <skill text="LINUX"></skill>
             </skills>
         </education>
     </educations>
