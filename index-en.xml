@@ -84,10 +84,10 @@
             <score text="Score: ">8.4</score>
             <skills>
                 <skill text="OFFICE"></skill>
-                <skill text="MANTENIMIENTO DE HARDWARE"></skill>
-                <skill text="SERVICIOS EN RED"></skill>
-                <skill text="CIBERSEGURIDAD"></skill>
-                <skill text="REDES LOCALES"></skill>
+                <skill text="HARDWARE MAINTENANCE"></skill>
+                <skill text="ONLINE SERVICES"></skill>
+                <skill text="CYBERSECURITY"></skill>
+                <skill text="LOCAL NETWORKS"></skill>
                 <skill text="CMS"></skill>
                 <skill text="LINUX"></skill>
             </skills>
