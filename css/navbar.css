@@ -2,11 +2,11 @@
   text-decoration: none;
 }
 
-.navbar2 {
+.custom-navbar {
   position: fixed;
   top: 0;
   z-index: 100;
-  background-color: var(--c2);
+  background-color: var(--c6);
   color: var(--c7);
   width: 205px;
   height: 100vh;
@@ -18,13 +18,13 @@
   scrollbar-width: none;
 }
 
-.navbar2::-webkit-scrollbar {
+.custom-navbar::-webkit-scrollbar {
   /* For unupdated browsers */
   display: none;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
-  @keyframes navbar2Load {
+  @keyframes custom-navbarLoad {
     0% {
       width: 205px;
     }
@@ -34,14 +34,14 @@
     }
   }
 
-  .navbar2 {
+  .custom-navbar {
     width: 55px;
     padding: 0;
     overflow: hidden;
     transform: translateX(0);
     display: flex;
     justify-content: space-evenly;
-    animation: navbar2Load 0.4s ease-in-out;
+    animation: custom-navbarLoad 0.4s ease-in-out;
   }
 
   main {
@@ -50,7 +50,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .navbar2 {
+  .custom-navbar {
     width: 205px;
     justify-content: center;
     gap: 13vh;
@@ -63,19 +63,19 @@
   }
 }
 
-.navbar2--show {
+.custom-navbar--show {
   transform: translateX(0px);
   overflow: scroll;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
-  .navbar2--show {
+  .custom-navbar--show {
     width: 205px;
     transition: all 0.4s;
   }
 }
 
-.navbar2-logo {
+.custom-navbar-logo {
   display: none;
 }
 
@@ -96,7 +96,7 @@
     }
   }
 
-  .navbar2-logo {
+  .custom-navbar-logo {
     display: flex;
     position: absolute;
     top: 8vh;
@@ -108,7 +108,7 @@
     animation: imgLoad 1s ease-in-out;
   }
 
-  .navbar2-logo--hidden>img {
+  .custom-navbar-logo--hidden>img {
     opacity: 0;
     height: 0;
     transform: scale(0);
@@ -159,16 +159,16 @@
   }
 }
 
-.navbar2--show .toggle-menu {
+.custom-navbar--show .toggle-menu {
   transform: translateX(-65px);
   top: 0;
 }
 
-.navbar2--show .toggle-menu__open {
+.custom-navbar--show .toggle-menu__open {
   display: none;
 }
 
-.navbar2--show #toggle-menu__close {
+.custom-navbar--show #toggle-menu__close {
   display: flex;
   margin-top: 1rem;
   height: 3rem;
@@ -177,7 +177,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .navbar2--show #toggle-menu__close {
+  .custom-navbar--show #toggle-menu__close {
     display: none;
   }
 }
@@ -221,7 +221,7 @@
     transition: transform 0.4s;
   }
 
-  .navbar2--show .main-menu a>div {
+  .custom-navbar--show .main-menu a>div {
     transform: translateX(0);
     transition: transform 0.4s;
   }

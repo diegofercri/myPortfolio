@@ -5,6 +5,7 @@
         <home>Inicio</home>
         <projects>Projectos</projects>
         <educations>Estudios</educations>
+        <technologies>Tecnologías</technologies>
         <languages>Idiomas</languages>
         <contact>Contacto</contact>
         <langs>
@@ -39,7 +40,7 @@
         </project>
         <project>
             <img>/img/ligacabanasdelasagrafs.webp</img>
-            <name>@ligacabanasdelasagrafs</name>
+            <name>LFSC</name>
             <startDate>16/07/2024</startDate>
             <endDate>20/07/2024</endDate>
             <description>Web completa con formularios de inscripcion para el proyecto "Liga Cabañas de la Sagra FS"</description>
@@ -69,9 +70,12 @@
                 <skill text="CSS"></skill>
                 <skill text="JAVASCRIPT"></skill>
                 <skill text="XML"></skill>
-                <skill text="XSL"></skill>
+                <skill text="XSLT"></skill>
+                <skill text="JSON"></skill>
                 <skill text="BOOTSTRAP"></skill>
                 <skill text="WORDPRESS"></skill>
+                <skill text="KOTLIN"></skill>
+                <skill text="SWIFT"></skill>
             </skills>
         </education>
         <education>
@@ -93,13 +97,70 @@
             </skills>
         </education>
     </educations>
-    <skills>
+    <skills text="Tecnologías">
         <skill>
-            <name>Desarrollo Web</name>
-            <level>Trainee</level>
-            <keywords>HTML</keywords>
-            <keywords>CSS</keywords>
-            <keywords>JavaScript</keywords>
+            <name>HMTL</name>
+            <icon>assets/html5.svg</icon>
+        </skill>
+        <skill>
+            <name>CSS</name>
+            <icon>assets/css.svg</icon>
+        </skill>
+        <skill>
+            <name>JS</name>
+            <icon>assets/javascript.svg</icon>
+        </skill>
+        <skill>
+            <name>BS5</name>
+            <icon>assets/bootstrap.svg</icon>
+        </skill>
+        <skill>
+            <name>WordPress</name>
+            <icon>assets/wordpress.svg</icon>
+        </skill>
+        <skill>
+            <name>SQL</name>
+            <icon>assets/sql.svg</icon>
+        </skill>
+        <skill>
+            <name>PL/SQL</name>
+            <icon>assets/oracle.svg</icon>
+        </skill>
+        <skill>
+            <name>Java</name>
+            <icon>assets/java.svg</icon>
+        </skill>
+        <skill>
+            <name>Kotlin</name>
+            <icon>assets/kotlin.svg</icon>
+        </skill>
+        <skill>
+            <name>Swift</name>
+            <icon>assets/swift.svg</icon>
+        </skill>
+        <skill>
+            <name>Git</name>
+            <icon>assets/git.svg</icon>
+        </skill>
+        <skill>
+            <name>GitHub</name>
+            <icon>assets/github.svg</icon>
+        </skill>
+        <skill>
+            <name>Docker</name>
+            <icon>assets/docker.svg</icon>
+        </skill>
+        <skill>
+            <name>Linux</name>
+            <icon>assets/linux.svg</icon>
+        </skill>
+        <skill>
+            <name>1Password</name>
+            <icon>assets/1password.svg</icon>
+        </skill>
+        <skill>
+            <name>BitWarden</name>
+            <icon>assets/bitwarden.svg</icon>
         </skill>
     </skills>
     <languages text="Idiomas">

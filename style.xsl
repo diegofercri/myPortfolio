@@ -17,9 +17,7 @@
                 
                 <!-- Custom CSS -->
                 <link rel="stylesheet" href="css/style.css" />
-                
                 <link rel="stylesheet" href="css/style-colors.css" />
-                
                 <link rel="stylesheet" href="css/navbar.css" />
                 
                 <!-- Font Awesome -->
@@ -27,14 +25,14 @@
             </head>
             
             <body class="bg-c1">
-                <nav id="navbar2" class="navbar2">
+                <nav id="custom-navbar" class="custom-navbar">
                     <div id="toggle-menu__open" class="toggle-menu toggle-menu__open">
                         <i class="fa fa-bars" aria-hidden="true"></i>
                     </div>
                     <div id="toggle-menu__close" class="toggle-menu toggle-menu__close">
                         <i class="fa fa-close" aria-hidden="true"></i>
                     </div>
-                    <img src="{portfolio/basics/profilePicture}" alt="diego_fercri logo" id="navbar2-logo" class="navbar2-logo" style="border-radius: 500px"/>
+                    <img src="img/profilePicture.webp" alt="diego_fercri logo" id="custom-navbar-logo" class="custom-navbar-logo" style="border-radius: 500px"/>
                     <ul id="main-menu" class="main-menu d-flex flex-column list-unstyled m-0">
                         <li class="d-flex">
                             <a href="#home" class=" toggle-menu__close">
@@ -47,7 +45,7 @@
                         <li class="d-flex">
                             <a href="#projects" class="nav-link toggle-menu__close">
                                 <div class="d-flex align-items-center">
-                                    <i class="fa fa-code" aria-hidden="true" style="width: 1rem"></i>
+                                    <i class="fa fa-folder" aria-hidden="true" style="width: 1rem"></i>
                                     <xsl:value-of select="portfolio/nav/projects" />
                                 </div>
                             </a>
@@ -57,6 +55,14 @@
                                 <div class="d-flex align-items-center">
                                     <i class="fa fa-book" aria-hidden="true" style="width: 1rem"></i>
                                     <xsl:value-of select="portfolio/nav/educations" />
+                                </div>
+                            </a>
+                        </li>
+                        <li class="d-flex">
+                            <a href="#technologies" class="nav-link toggle-menu__close">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-code" aria-hidden="true" style="width: 1rem"></i>
+                                    <xsl:value-of select="portfolio/nav/technologies" />
                                 </div>
                             </a>
                         </li>
@@ -106,16 +112,16 @@
                     <section id="projects" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
                         <div>
                             <a class="fs-3"><xsl:value-of select="portfolio/projects/@text" /></a>
-                            <div class="row">
+                            <div class="row mt-4">
                                 <xsl:for-each select="portfolio/projects/project">
-                                    <div class="col-12 col-md-4 col-xxl-3 mt-4">
-                                        <div class="card2">
-                                            <div class="card2-wrapper">
-                                                <div class="card2-banner-image" style="background-image: url({img});"></div>
+                                    <div class="col-12 col-md-6 col-xxl-3 d-flex">
+                                        <div class="card custom-card">
+                                            <div class="custom-card-wrapper">
+                                                <div class="custom-card-banner-image" style="background-image: url({img});"></div>
                                                 <h5><xsl:value-of select="name" /></h5>
                                                 <p><xsl:value-of select="description" /></p>
                                             </div>
-                                            <div class="card2-button-wrapper">
+                                            <div class="custom-card-button-wrapper">
                                                 <!--<a href="" class="btn outline">Detalles</a>-->
                                                 <a href="{url}" class="btn fill" target="_blank">Sitio Web</a>
                                             </div>
@@ -128,11 +134,11 @@
                     <section id="educations" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
                         <div>
                             <a class="fs-3"><xsl:value-of select="portfolio/educations/@text" /></a>
-                            <div class="row">
+                            <div class="row mt-4">
                                 <xsl:for-each select="portfolio/educations/education">
-                                    <div class="col-12 col-md-6 mt-4">
+                                    <div class="col-12 col-md-6 d-flex">
                                         <div class="card border-0">
-                                            <div class="card-body">
+                                            <div class="card-body d-flex flex-column justify-content-between">
                                                 <h5 class="mb-2"><xsl:value-of select="studyType" /></h5>
                                                 <div class="d-flex gap-2 mt-1">
                                                     <a><xsl:value-of select="startDate" /></a>
@@ -157,6 +163,41 @@
                                         </div>
                                     </div>
                                 </xsl:for-each>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="technologies" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
+                        <div style="width: 100%;">
+                            <a class="fs-3"><xsl:value-of select="portfolio/skills/@text" /></a>
+                            <div class="skills py-4 d-flex gap-3">
+                                <div class="skills-slide gap-3">
+                                    <xsl:for-each select="portfolio/skills/skill">
+                                        <div class="card border-0 p-3">
+                                            <div class="d-flex flex-column gap-2 align-items-center justify-content-between">
+                                                <div class="mt-2">
+                                                    <img src="{icon}" alt="{name}"/>
+                                                </div>
+                                                <div>
+                                                    <h6 class="m-0 p-0"><xsl:value-of select="name" /></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </xsl:for-each>
+                                </div>
+                                <div class="skills-slide gap-3">
+                                    <xsl:for-each select="portfolio/skills/skill">
+                                        <div class="card border-0 p-3">
+                                            <div class="d-flex flex-column gap-2 align-items-center justify-content-between">
+                                                <div class="mt-2">
+                                                    <img src="{icon}" alt="{name}"/>
+                                                </div>
+                                                <div>
+                                                    <h6 class="m-0 p-0"><xsl:value-of select="name" /></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </xsl:for-each>
+                                </div>
                             </div>
                         </div>
                     </section>
