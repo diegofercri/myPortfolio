@@ -119,6 +119,14 @@
             <icon>assets/wordpress.svg</icon>
         </skill>
         <skill>
+            <name>Oracle SQL</name>
+            <icon>assets/oracle.svg</icon>
+        </skill>
+        <skill>
+            <name>PL/SQL</name>
+            <icon>assets/oracle.svg</icon>
+        </skill>
+        <skill>
             <name>Java</name>
             <icon>assets/java.svg</icon>
         </skill>
