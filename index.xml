@@ -24,7 +24,7 @@
     </basics>
     <projects text="Proyectos">
         <project>
-            <img>/img/staff19torneos.webp</img>
+            <img>img/staff19torneos.webp</img>
             <name>@staff19torneos</name>
             <startDate>29/05/2024</startDate>
             <endDate>10/06/2024</endDate>
@@ -39,7 +39,7 @@
             </technologies>
         </project>
         <project>
-            <img>/img/ligacabanasdelasagrafs.webp</img>
+            <img>img/ligacabanasdelasagrafs.webp</img>
             <name>LFSC</name>
             <startDate>16/07/2024</startDate>
             <endDate>20/07/2024</endDate>
