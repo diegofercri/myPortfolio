@@ -18,9 +18,8 @@
         <name>Diego Fernández Criado</name>
         <label>Programador Trainee</label>
         <summary>¡Hola! Soy Diego, un desarrollador recién inicidado con muchas ganas de aprender
-            sobre este mundo, además, no solo me encanta desarrollar, también adoro la parte de
-            diseño. Y para ello busco inspiración en la fotografía, la música, el cine y sobretodo
-            los videojuegos.</summary>
+            sobre este mundo, me encanta desarrollar y también adoro la parte de diseño. Para ello
+            busco inspiración en la fotografía, el cine y sobretodo en la música y los videojuegos.</summary>
     </basics>
     <projects text="Proyectos">
         <project>
@@ -28,7 +27,8 @@
             <name>@staff19torneos</name>
             <startDate>29/05/2024</startDate>
             <endDate>10/06/2024</endDate>
-            <description>Web completa con formularios de inscripcion y venta de entradas para el proyecto "Staff 19 Torneos"</description>
+            <description>Web completa con formularios de inscripcion y venta de entradas para el
+                proyecto "Staff 19 Torneos"</description>
             <url text="Sitio Web">https://staff19torneos.com</url>
             <technologies>
                 <technology text="HTML"></technology>
@@ -43,7 +43,8 @@
             <name>LFSC</name>
             <startDate>16/07/2024</startDate>
             <endDate>20/07/2024</endDate>
-            <description>Web completa con formularios de inscripcion para el proyecto "Liga Cabañas de la Sagra FS"</description>
+            <description>Web completa con formularios de inscripcion para el proyecto "Liga Cabañas
+                de la Sagra FS"</description>
             <url text="Sitio Web">https://ligacabanasdelasagrafs.com</url>
             <technologies>
                 <technology text="HTML"></technology>

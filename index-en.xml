@@ -18,9 +18,9 @@
         <profilePicture>img/diegoPicture.webp</profilePicture>
         <name>Diego Fernández Criado</name>
         <label>Trainee Programmer</label>
-        <summary>Hi! I am Diego, a new developer with a strong desire to learn about this field. I enjoy
-            both development and design, and I seek inspiration from photography, music, cinema, and
-            especially video games.</summary>
+        <summary>Hi! I'm Diego, a new developer with a lot of desire to learn about this world, I
+            love to develop and I also love the design part. I look for inspiration in photography,
+            cinema and above all in music and videogames.</summary>
     </basics>
     <projects text="Projects">
         <project>
@@ -28,7 +28,8 @@
             <name>@staff19torneos</name>
             <startDate>05/29/2024</startDate>
             <endDate>06/10/2024</endDate>
-            <description>Complete website with registration forms and ticket sales for "Staff 19 Torneos" project</description>
+            <description>Complete website with registration forms and ticket sales for "Staff 19
+                Torneos" project</description>
             <url text="Website">https://staff19torneos.com</url>
             <technologies>
                 <technology text="HTML"></technology>
@@ -43,7 +44,8 @@
             <name>LFSC</name>
             <startDate>07/16/2024</startDate>
             <endDate>07/20/2024</endDate>
-            <description>Complete website with registration forms for "Liga Cabañas de la Sagra FS" project</description>
+            <description>Complete website with registration forms for "Liga Cabañas de la Sagra FS"
+                project</description>
             <url text="Sitio Web">https://ligacabanasdelasagrafs.com</url>
             <technologies>
                 <technology text="HTML"></technology>
