@@ -129,6 +129,14 @@
             <icon>assets/oracle.svg</icon>
         </skill>
         <skill>
+            <name>JSON</name>
+            <icon>assets/json.svg</icon>
+        </skill>
+        <skill>
+            <name>XML</name>
+            <icon>assets/xml.svg</icon>
+        </skill>
+        <skill>
             <name>Java</name>
             <icon>assets/java.svg</icon>
         </skill>

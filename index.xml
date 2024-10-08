@@ -82,7 +82,7 @@
         <education>
             <institution>IES Azarquiel</institution>
             <url>http://www.ies-azarquiel.es</url>
-            <area>Informática</area>
+            <area>Informática y Comunicaciones</area>
             <studyType>Sistemas Microinformáticos y Redes</studyType>
             <startDate>09 / 2021</startDate>
             <endDate>06 / 2023</endDate>
@@ -126,6 +126,14 @@
         <skill>
             <name>PL/SQL</name>
             <icon>assets/oracle.svg</icon>
+        </skill>
+        <skill>
+            <name>JSON</name>
+            <icon>assets/json.svg</icon>
+        </skill>
+        <skill>
+            <name>XML</name>
+            <icon>assets/xml.svg</icon>
         </skill>
         <skill>
             <name>Java</name>
