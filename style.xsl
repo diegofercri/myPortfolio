@@ -24,7 +24,7 @@
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
             </head>
             
-            <body class="bg-c1">
+            <body>
                 <nav id="custom-navbar" class="custom-navbar">
                     <div id="toggle-menu__open" class="toggle-menu toggle-menu__open">
                         <i class="fa fa-bars" aria-hidden="true"></i>
@@ -112,9 +112,9 @@
                     <section id="projects" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
                         <div>
                             <a class="fs-3"><xsl:value-of select="portfolio/projects/@text" /></a>
-                            <div class="row mt-4">
+                            <div class="row">
                                 <xsl:for-each select="portfolio/projects/project">
-                                    <div class="col-12 col-md-6 col-xxl-3 d-flex">
+                                    <div class="col-12 col-md-6 col-xxl-3 d-flex mt-4">
                                         <div class="card custom-card">
                                             <div class="custom-card-wrapper">
                                                 <div class="custom-card-banner-image" style="background-image: url({img});"></div>
@@ -134,9 +134,9 @@
                     <section id="educations" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
                         <div>
                             <a class="fs-3"><xsl:value-of select="portfolio/educations/@text" /></a>
-                            <div class="row mt-4">
+                            <div class="row">
                                 <xsl:for-each select="portfolio/educations/education">
-                                    <div class="col-12 col-md-6 d-flex">
+                                    <div class="col-12 col-md-6 d-flex mt-4">
                                         <div class="card border-0">
                                             <div class="card-body d-flex flex-column justify-content-between">
                                                 <h5 class="mb-2"><xsl:value-of select="studyType" /></h5>
