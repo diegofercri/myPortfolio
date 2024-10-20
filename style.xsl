@@ -24,7 +24,7 @@
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
             </head>
             
-            <body class="bg-c">
+            <body class="b-color">
                 <nav id="custom-navbar" class="custom-navbar">
                     <div id="toggle-menu__open" class="toggle-menu toggle-menu__open">
                         <i class="fa fa-bars" aria-hidden="true"></i>
