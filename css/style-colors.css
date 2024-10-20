@@ -10,9 +10,12 @@
     --c8: #505050;
 }
 
-body {
-    background-color: var(--c6);
+html {
     background: linear-gradient(60deg, var(--c5), var(--c6));
+}
+
+body {
+    background-color: transparent;
 }
 
 .badge {
