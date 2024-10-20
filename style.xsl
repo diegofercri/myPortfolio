@@ -24,7 +24,7 @@
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
             </head>
             
-            <body>
+            <body class="bg-c">
                 <nav id="custom-navbar" class="custom-navbar">
                     <div id="toggle-menu__open" class="toggle-menu toggle-menu__open">
                         <i class="fa fa-bars" aria-hidden="true"></i>
@@ -156,7 +156,7 @@
                                                 </div>
                                                 <div class="mt-3 d-flex gap-1 flex-wrap" style="min-width: fit-content; max-width: 400px;">
                                                     <xsl:for-each select="skills/skill">
-                                                        <span class="badge bg-c3 text-c7 fw-bold rounded-3 px-2"><xsl:value-of select="@text" /></span>
+                                                        <span class="badge fw-bold rounded-3 px-2"><xsl:value-of select="@text" /></span>
                                                     </xsl:for-each>
                                                 </div>
                                             </div>
