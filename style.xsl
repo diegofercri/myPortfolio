@@ -4,7 +4,7 @@
     <xsl:template match="/">
         
         
-        <html lang="{portfolio/@lang} HOLA">
+        <html lang="{portfolio/@lang}">
             
             <head>
                 <title>diegofercri.dev</title>
