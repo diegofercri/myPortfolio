@@ -88,12 +88,12 @@
                 <main class="d-flex row row-cols-1 row-cols-xxl-2 m-3 mt-0">
                     <div class="d-flex align-content-end justify-content-end position-absolute p-0" style="margin: 15px; right: 0; top: 0; gap: 15px;">
                         <xsl:for-each select="portfolio/nav/langs/lang">
-                            <a href="{@url}" class="lang">
-                                <div class="d-flex align-items-center gap-2 fs-5">
-                                    <img src="{@img}" alt="{@text}" style="border-radius: 50px; height: 30px;"/>
+                            <div>
+                                <a href="{@url}" class="btn outline d-flex align-items-center gap-2">
+                                    <img src="{@img}" alt="{@text}" style="border-radius: 50px; height: 20px;"/>
                                     <xsl:value-of select="@text" />
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </xsl:for-each>
                     </div>
                     <section id="home" class="col-xxl-12 d-flex flex-column flex-lg-row vh-100 align-items-center justify-content-evenly">

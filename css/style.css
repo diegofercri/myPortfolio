@@ -93,6 +93,7 @@ p {
 }
 
 .outline {
+    padding: 8px 12px;
     background: transparent !important;
     color: var(--c7);
     border: 1px solid var(--c7);
