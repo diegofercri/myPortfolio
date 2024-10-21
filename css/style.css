@@ -61,7 +61,7 @@ p {
 }
 
 .lk:hover {
-    color: var(--c6) !important;
+    color: var(--c3) !important;
 }
 
 .lk a {
@@ -69,7 +69,7 @@ p {
 }
 
 .lk:hover a {
-    color: var(--c6) !important;
+    color: var(--c3) !important;
     transition: all 0.2s;
 }
 
@@ -78,7 +78,7 @@ p {
 }
 
 .lk:hover .fa {
-    color: var(--c6) !important;
+    color: var(--c3) !important;
     transition: all 0.2s !important;
 }
 
@@ -93,6 +93,7 @@ p {
 }
 
 .outline {
+    padding: 8px 12px;
     background: transparent !important;
     color: var(--c7);
     border: 1px solid var(--c7);
