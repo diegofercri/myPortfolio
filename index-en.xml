@@ -78,6 +78,7 @@
                 <skill text="WORDPRESS"></skill>
                 <skill text="KOTLIN"></skill>
                 <skill text="SWIFT"></skill>
+                <skill text="C#"></skill>
             </skills>
         </education>
         <education>
@@ -139,6 +140,10 @@
         <skill>
             <name>Java</name>
             <icon>assets/java.svg</icon>
+        </skill>
+        <skill>
+            <name>C#</name>
+            <icon>assets/csharp.svg</icon>
         </skill>
         <skill>
             <name>Kotlin</name>
