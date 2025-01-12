@@ -95,14 +95,16 @@
                     <div class="d-flex align-content-end justify-content-end position-absolute p-0" style="margin: 15px; right: 0; top: 0; gap: 15px;">
                         <xsl:for-each select="portfolio/nav/langs/lang">
                             <div>
-                                <a href="{@url}" class="btn outline d-flex align-items-center gap-2">
-                                    <img src="{@img}" alt="{@text}" style="border-radius: 50px; height: 20px;"/>
-                                    <xsl:value-of select="@text" />
+                                <a href="{@url}" class="btn outline lang-btn d-flex align-items-center gap-2 btn-responsive">
+                                    <img src="{@img}" alt="{@text}" class="lang-img"/>
+                                    <span class="btn-text">
+                                        <xsl:value-of select="@text" />
+                                    </span>
                                 </a>
                             </div>
                         </xsl:for-each>
                     </div>
-                    <section id="home" class="col-xxl-12 d-flex flex-column flex-lg-row vh-100 align-items-center justify-content-evenly">
+                    <section id="home" class="col-xxl-12 d-flex flex-column flex-lg-row vh-100 align-items-center justify-content-evenly mobile-pt">
                         <div class="col-12 col-md-6 d-flex justify-content-center">
                             <div class="p-2 d-flex justify-content-center">
                                 <img src="{portfolio/basics/profilePicture}" alt="Diego" />

@@ -111,6 +111,11 @@ p {
     transition: all 0.3s ease;
 }
 
+.outline:hover span{
+    color: var(--c6) !important;
+    transition: all 0.3s ease;
+}
+
 .fill {
     background: var(--c6) !important;
     color: var(--c7) !important;
@@ -125,6 +130,29 @@ p {
     border-color: rgba(255, 255, 255, 0.9);
     filter: drop-shadow(0px 5px 2px rgba(0, 0, 0, 0.08));
     transition: all 0.3s ease;
+}
+
+.lang-img {
+    border-radius: 50px;
+    height: 20px;
+}
+
+@media (max-width: 768px) {
+    .lang-btn {
+        padding: 0 !important;
+        border-radius: 100%;
+        border: 2px solid;
+    }
+    .lang-img {
+        border-radius: 50px;
+        height: 30px;
+    }
+    .btn-text {
+        display: none;
+    }
+    .mobile-pt {
+        padding-top: 40px;
+    }
 }
 
 .card {

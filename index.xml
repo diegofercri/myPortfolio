@@ -24,7 +24,7 @@
     <projects text="Proyectos">
         <project>
             <img>img/staff19torneos.webp</img>
-            <name>@staff19torneos</name>
+            <name>ST19</name>
             <startDate>29/05/2024</startDate>
             <endDate>10/06/2024</endDate>
             <description>Web completa con formularios de inscripcion y venta de entradas para el
@@ -76,6 +76,7 @@
                 <skill text="BOOTSTRAP"></skill>
                 <skill text="WORDPRESS"></skill>
                 <skill text="KOTLIN"></skill>
+                <skill text="JPC"></skill>
                 <skill text="SWIFT"></skill>
                 <skill text="C#"></skill>
             </skills>
@@ -137,16 +138,20 @@
             <icon>assets/xml.svg</icon>
         </skill>
         <skill>
-            <name>Java</name>
-            <icon>assets/java.svg</icon>
-        </skill>
-        <skill>
             <name>C#</name>
             <icon>assets/csharp.svg</icon>
         </skill>
         <skill>
+            <name>Java</name>
+            <icon>assets/java.svg</icon>
+        </skill>
+        <skill>
             <name>Kotlin</name>
             <icon>assets/kotlin.svg</icon>
+        </skill>
+        <skill>
+            <name>JPC</name>
+            <icon>assets/jpc.png</icon>
         </skill>
         <skill>
             <name>Swift</name>
@@ -190,7 +195,7 @@
         </language>
     </languages>
     <contacts text="Contacto">
-        <email>diegofercri25@gmail.com</email>
+        <email>contact@diegofercri.dev</email>
         <location>
             <countryCode>ES</countryCode>
             <region>Toledo</region>
