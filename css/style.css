@@ -92,6 +92,13 @@ p {
     cursor: pointer;
 }
 
+.btn-text {
+    display: none;
+    font-size: 12px;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
 .outline {
     padding: 8px 12px;
     background: transparent !important;

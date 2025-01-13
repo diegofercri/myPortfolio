@@ -38,7 +38,6 @@
                     <div id="toggle-menu__close" class="toggle-menu toggle-menu__close">
                         <i class="fa fa-close" aria-hidden="true"></i>
                     </div>
-                    <img src="img/profilePicture.webp" alt="diego_fercri logo" id="custom-navbar-logo" class="custom-navbar-logo" style="border-radius: 500px"/>
                     <ul id="main-menu" class="main-menu d-flex flex-column list-unstyled m-0">
                         <li class="d-flex">
                             <a href="#home" class=" toggle-menu__close">
