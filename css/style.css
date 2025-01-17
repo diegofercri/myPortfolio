@@ -118,7 +118,7 @@ p {
     transition: all 0.3s ease;
 }
 
-.outline:hover span{
+.outline:hover span {
     color: var(--c6) !important;
     transition: all 0.3s ease;
 }
@@ -144,22 +144,23 @@ p {
     height: 20px;
 }
 
-@media (max-width: 768px) {
-    .lang-btn {
-        padding: 0 !important;
-        border-radius: 100%;
-        border: 2px solid;
-    }
-    .lang-img {
-        border-radius: 50px;
-        height: 30px;
-    }
-    .btn-text {
-        display: none;
-    }
-    .mobile-pt {
-        padding-top: 40px;
-    }
+.lang-btn {
+    padding: 0 !important;
+    border-radius: 100%;
+    border: 2px solid;
+}
+
+.lang-img {
+    border-radius: 50px;
+    height: 30px;
+}
+
+.btn-text {
+    display: none;
+}
+
+.mobile-pt {
+    padding-top: 40px;
 }
 
 .card {
@@ -169,7 +170,7 @@ p {
     transition: all 0.3s ease;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.03);
     transition: all 0.3s ease;
 }
@@ -187,7 +188,7 @@ p {
     transition: all 0.3s ease;
 }
 
-.custom-card:hover{
+.custom-card:hover {
     transform: scale(1.0);
 }
 
