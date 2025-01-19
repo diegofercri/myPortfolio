@@ -235,6 +235,16 @@ p {
     gap: 10px;
 }
 
+.skills {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.skills:hover .skills-slide {
+    animation-play-state: paused;
+}
+
 .skills-slide .card {
     min-width: 120px;
     min-height: 120px;
@@ -264,19 +274,9 @@ p {
     }
 }
 
-.skills {
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
-}
-
 .skills-slide {
     display: flex;
     animation: 80s slide infinite linear;
-}
-
-.skills:hover .skills-slide {
-    animation-play-state: paused;
 }
 
 .skills-slide img {
