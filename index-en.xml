@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="style.xsl" type="text/xsl"?>
-
 <portfolio lang="en">
     <nav>
         <home>Home</home>
@@ -17,10 +16,12 @@
     <basics>
         <profilePicture>img/diegoPicture.webp</profilePicture>
         <name>Diego Fernández Criado</name>
-        <label>Trainee Programmer</label>
-        <summary>Hi! I'm Diego, a new developer with a lot of desire to learn about this world, I
-            love to develop and I also love the design part. I look for inspiration in photography,
-            cinema and above all in music and videogames.</summary>
+        <label>Junior Programmer</label>
+        <summary>Hi! I'm Diego, a multiplatform application developer passionate about UI and UX design.
+            I'm enthusiastic about photography, cinema, and music, and I'm a gaming geek. My passion for
+            technology, innovation, and perfection have brought me here, and I firmly believe that 1%
+            improvements are what make the difference.
+        </summary>
     </basics>
     <projects text="Projects">
         <project>
@@ -28,15 +29,15 @@
             <name>ST19</name>
             <startDate>05/29/2024</startDate>
             <endDate>06/10/2024</endDate>
-            <description>Complete website with registration forms and ticket sales for "Staff 19
-                Torneos" project</description>
+            <description>Web project with Wordpress and Elementor to digitize promotion and registration processes for "@staff19torneos"</description>
             <url text="Website">https://staff19torneos.com</url>
             <technologies>
                 <technology text="HTML"></technology>
                 <technology text="CSS"></technology>
+                <technology text="BOOTSTRAP"></technology>
                 <technology text="JAVASCRIPT"></technology>
                 <technology text="WORDPRESS"></technology>
-                <technology text="BOOTSTRAP"></technology>
+                <technology text="ELEMENTOR"></technology>
             </technologies>
         </project>
         <project>
@@ -44,14 +45,28 @@
             <name>LFSC</name>
             <startDate>07/16/2024</startDate>
             <endDate>07/20/2024</endDate>
-            <description>Complete website with registration forms for "Liga Cabañas de la Sagra FS"
-                project</description>
-            <url text="Sitio Web">https://ligacabanasdelasagrafs.com</url>
+            <description>Web project with Wordpress and Spectra for "Liga Cabañas
+                de la Sagra FS" (no longer in use)</description>
+            <url text="Website">https://ligacabanasdelasagrafs.com</url>
             <technologies>
                 <technology text="HTML"></technology>
                 <technology text="CSS"></technology>
                 <technology text="WORDPRESS"></technology>
                 <technology text="BOOTSTRAP"></technology>
+            </technologies>
+        </project>
+        <project>
+            <img>img/intecmain.webp</img>
+            <name>Intecmain</name>
+            <startDate>01/20/2025</startDate>
+            <endDate>03/09/2025</endDate>
+            <description>Web project with Wordpress and Elementor to promote "Intecmain" company</description>
+            <url text="Website">https://intecmain.com</url>
+            <technologies>
+                <technology text="HTML"></technology>
+                <technology text="CSS"></technology>
+                <technology text="WORDPRESS"></technology>
+                <technology text="ELEMENTOR"></technology>
             </technologies>
         </project>
     </projects>
@@ -62,8 +77,8 @@
             <area>Software Development</area>
             <studyType>Multiplatform App Development</studyType>
             <startDate>09 / 2023</startDate>
-            <endDate>On Going</endDate>
-            <score text="Score: ">to be defined</score>
+            <endDate>09 / 2025</endDate>
+            <score text="Score: ">8.2 (to be defined)</score>
             <skills>
                 <skill text="JAVA"></skill>
                 <skill text="SQL"></skill>
@@ -85,19 +100,20 @@
         <education>
             <institution>IES Azarquiel</institution>
             <url>http://www.ies-azarquiel.es</url>
-            <area>Computer Science</area>
+            <area>Computer Science and Communications</area>
             <studyType>Microcomputer Systems and Networks</studyType>
             <startDate>09 / 2021</startDate>
             <endDate>06 / 2023</endDate>
             <score text="Score: ">8.4</score>
             <skills>
-                <skill text="OFFICE"></skill>
-                <skill text="HARDWARE MAINTENANCE"></skill>
-                <skill text="ONLINE SERVICES"></skill>
+                <skill text="LINUX SYSTEMS"></skill>
+                <skill text="WINDOWS SYSTEMS"></skill>
+                <skill text="NETWORK SERVICES"></skill>
                 <skill text="CYBERSECURITY"></skill>
                 <skill text="LOCAL NETWORKS"></skill>
+                <skill text="HARDWARE MAINTENANCE"></skill>
                 <skill text="CMS"></skill>
-                <skill text="LINUX"></skill>
+                <skill text="OFFICE"></skill>
             </skills>
         </education>
     </educations>
@@ -111,16 +127,40 @@
             <icon>assets/css.svg</icon>
         </skill>
         <skill>
-            <name>JS</name>
-            <icon>assets/javascript.svg</icon>
-        </skill>
-        <skill>
             <name>BS5</name>
             <icon>assets/bootstrap.svg</icon>
         </skill>
         <skill>
-            <name>WordPress</name>
-            <icon>assets/wordpress.svg</icon>
+            <name>JS</name>
+            <icon>assets/javascript.svg</icon>
+        </skill>
+        <skill>
+            <name>TS</name>
+            <icon>assets/typescript.svg</icon>
+        </skill>
+        <skill>
+            <name>React Native</name>
+            <icon>assets/react.svg</icon>
+        </skill>
+        <skill>
+            <name>NativeWind</name>
+            <icon>assets/nativewind.svg</icon>
+        </skill>
+        <skill>
+            <name>Figma</name>
+            <icon>assets/figma.svg</icon>
+        </skill>
+        <skill>
+            <name>Supabase</name>
+            <icon>assets/supabase.svg</icon>
+        </skill>
+        <skill>
+            <name>Docker</name>
+            <icon>assets/docker.svg</icon>
+        </skill>
+        <skill>
+            <name>Cloudflare</name>
+            <icon>assets/cloudflare.svg</icon>
         </skill>
         <skill>
             <name>Oracle SQL</name>
@@ -129,14 +169,6 @@
         <skill>
             <name>PL/SQL</name>
             <icon>assets/oracle.svg</icon>
-        </skill>
-        <skill>
-            <name>JSON</name>
-            <icon>assets/json.svg</icon>
-        </skill>
-        <skill>
-            <name>XML</name>
-            <icon>assets/xml.svg</icon>
         </skill>
         <skill>
             <name>C#</name>
@@ -167,12 +199,12 @@
             <icon>assets/github.svg</icon>
         </skill>
         <skill>
-            <name>Docker</name>
-            <icon>assets/docker.svg</icon>
+            <name>WordPress</name>
+            <icon>assets/wordpress.svg</icon>
         </skill>
         <skill>
-            <name>Linux</name>
-            <icon>assets/linux.svg</icon>
+            <name>Supermaven</name>
+            <icon>assets/supermaven.svg</icon>
         </skill>
         <skill>
             <name>1Password</name>
@@ -197,19 +229,14 @@
     </languages>
     <contacts text="Contact">
         <email>contact@diegofercri.dev</email>
-        <location text="Location: ">
+        <location>
             <countryCode>ES</countryCode>
             <region>Toledo</region>
             <url>https://www.google.com/maps/place/Toledo+Spain</url>
         </location>
-        <privacy text="Note: ">For privacy reasons, to know my exact address and mobile phone number
-            please contact me at</privacy>
+        <privacy text="Note: ">For privacy reasons, if you want to know my exact location and
+            mobile phone number please contact me at</privacy>
         <profiles>
-            <profile>
-                <network>telegram</network>
-                <username>@diegofercri</username>
-                <url>https://t.me/diegofercri</url>
-            </profile>
             <profile>
                 <network>instagram</network>
                 <username>@diegofercri</username>
