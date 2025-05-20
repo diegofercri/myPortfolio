@@ -238,14 +238,19 @@
             teléfono móvil ponte en contacto conmigo en</privacy>
         <profiles>
             <profile>
-                <network>instagram</network>
+                <network>linkedin</network>
                 <username>@diegofercri</username>
-                <url>https://www.instagram.com/diegofercri</url>
+                <url>https://www.linkedin.com/in/diegofercri</url>
             </profile>
             <profile>
                 <network>github</network>
                 <username>@diegofercri</username>
                 <url>https://github.com/diegofercri</url>
+            </profile>
+            <profile>
+                <network>instagram</network>
+                <username>@diegofercri</username>
+                <url>https://www.instagram.com/diegofercri</url>
             </profile>
         </profiles>
     </contacts>
