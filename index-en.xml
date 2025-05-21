@@ -119,6 +119,14 @@
     </educations>
     <skills text="Technologies">
         <skill>
+            <name>Git</name>
+            <icon>assets/git.svg</icon>
+        </skill>
+        <skill>
+            <name>GitHub</name>
+            <icon>assets/github.svg</icon>
+        </skill>
+        <skill>
             <name>HMTL</name>
             <icon>assets/html5.svg</icon>
         </skill>
@@ -143,6 +151,10 @@
             <icon>assets/react.svg</icon>
         </skill>
         <skill>
+            <name>Expo</name>
+            <icon>assets/expo.svg</icon>
+        </skill>
+        <skill>
             <name>NativeWind</name>
             <icon>assets/nativewind.svg</icon>
         </skill>
@@ -155,8 +167,16 @@
             <icon>assets/supabase.svg</icon>
         </skill>
         <skill>
+            <name>Azure</name>
+            <icon>assets/azure.svg</icon>
+        </skill>
+        <skill>
             <name>Docker</name>
             <icon>assets/docker.svg</icon>
+        </skill>
+        <skill>
+            <name>Proxmox</name>
+            <icon>assets/proxmox.svg</icon>
         </skill>
         <skill>
             <name>Cloudflare</name>
@@ -167,8 +187,8 @@
             <icon>assets/oracle.svg</icon>
         </skill>
         <skill>
-            <name>PL/SQL</name>
-            <icon>assets/oracle.svg</icon>
+            <name>Postgres</name>
+            <icon>assets/postgresql.svg</icon>
         </skill>
         <skill>
             <name>C#</name>
@@ -184,23 +204,7 @@
         </skill>
         <skill>
             <name>JPC</name>
-            <icon>assets/jpc.png</icon>
-        </skill>
-        <skill>
-            <name>Swift</name>
-            <icon>assets/swift.svg</icon>
-        </skill>
-        <skill>
-            <name>Git</name>
-            <icon>assets/git.svg</icon>
-        </skill>
-        <skill>
-            <name>GitHub</name>
-            <icon>assets/github.svg</icon>
-        </skill>
-        <skill>
-            <name>WordPress</name>
-            <icon>assets/wordpress.svg</icon>
+            <icon>assets/jetpackcompose.svg</icon>
         </skill>
         <skill>
             <name>Supermaven</name>
