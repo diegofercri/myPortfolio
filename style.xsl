@@ -176,10 +176,10 @@
                     <section id="technologies" class="col-xxl-12 d-flex flex-column flex-lg-row py-5">
                         <div style="width: 100%;">
                             <a class="fs-3"><xsl:value-of select="portfolio/skills/@text" /></a>
-                            <div class="skills py-4 d-flex gap-3">
-                                <div class="skills-slide gap-3">
+                            <div class="skills py-4 d-flex">
+                                <div class="skills-slide m-0 p-0">
                                     <xsl:for-each select="portfolio/skills/skill">
-                                        <div class="card border-0 p-3">
+                                        <div class="card border-0 p-3 ms-3">
                                             <div class="d-flex flex-column gap-2 align-items-center justify-content-between">
                                                 <div class="mt-2">
                                                     <img src="{icon}" alt="{name}"/>
@@ -191,9 +191,9 @@
                                         </div>
                                     </xsl:for-each>
                                 </div>
-                                <div class="skills-slide gap-3">
+                                <div class="skills-slide m-0 p-0">
                                     <xsl:for-each select="portfolio/skills/skill">
-                                        <div class="card border-0 p-3">
+                                        <div class="card border-0 p-3 ms-3">
                                             <div class="d-flex flex-column gap-2 align-items-center justify-content-between">
                                                 <div class="mt-2">
                                                     <img src="{icon}" alt="{name}"/>

@@ -276,7 +276,7 @@ p {
 
 .skills-slide {
     display: flex;
-    animation: 80s slide infinite linear;
+    animation: 60s slide infinite linear;
 }
 
 .skills-slide img {
