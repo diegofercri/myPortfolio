@@ -1,0 +1,36 @@
+:root {
+  --blur: 10px;
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.25);
+  --bg-gradient: linear-gradient(135deg, #20232a, #090a0f);
+  --text-color: #fff;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: var(--bg-gradient);
+  color: var(--text-color);
+  font-family: system-ui, sans-serif;
+}
+
+.glass-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 2rem 3rem;
+  backdrop-filter: blur(var(--blur));
+  -webkit-backdrop-filter: blur(var(--blur));
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.glass-card h1 {
+  margin-bottom: 0.5rem;
+}
