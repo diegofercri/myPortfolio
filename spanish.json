@@ -27,61 +27,6 @@
             "label": "Programador Junior",
             "summary": "¡Hola! Soy Diego, desarrollador de aplicaciones multiplataforma y me apasiona el diseño UI y UX. Soy un entusiasta de la fotografía, el cine y la música, y soy un friki de los videojuegos. Mi pasión por la tecnología, la innovación y la perfección me han llevado hasta aquí, y creo firmemente que las mejoras del 1% son las que marcan la diferencia."
         },
-        "projects": [
-            {
-                "img": "img/staff19torneos.webp",
-                "name": "ST19",
-                "startDate": "29/05/2024",
-                "endDate": "10/06/2024",
-                "description": "Proyecto Web con Wordpress y Elementor, para digitalizar los procesos difusión e inscripción de \"@staff19torneos\"",
-                "url": {
-                    "text": "Sitio Web",
-                    "value": "https://staff19torneos.com"
-                },
-                "technologies": [
-                    "HTML",
-                    "CSS",
-                    "BOOTSTRAP",
-                    "JAVASCRIPT",
-                    "WORDPRESS",
-                    "ELEMENTOR"
-                ]
-            },
-            {
-                "img": "img/ligacabanasdelasagrafs.webp",
-                "name": "LFSC",
-                "startDate": "16/07/2024",
-                "endDate": "20/07/2024",
-                "description": "Proyecto Web con Wordpress y Spectra para la \"Liga Cabañas de la Sagra FS\" (en desuso)",
-                "url": {
-                    "text": "Sitio Web",
-                    "value": "https://ligacabanasdelasagrafs.com"
-                },
-                "technologies": [
-                    "HTML",
-                    "CSS",
-                    "WORDPRESS",
-                    "BOOTSTRAP"
-                ]
-            },
-            {
-                "img": "img/intecmain.webp",
-                "name": "Intecmain",
-                "startDate": "20/01/2025",
-                "endDate": "09/03/2025",
-                "description": "Proyecto Web con Wordpress y Elementor para dar a conocer la empresa \"Intecmain\"",
-                "url": {
-                    "text": "Sitio Web",
-                    "value": "https://intecmain.com"
-                },
-                "technologies": [
-                    "HTML",
-                    "CSS",
-                    "WORDPRESS",
-                    "ELEMENTOR"
-                ]
-            }
-        ],
         "educations": [
             {
                 "institution": "IES Azarquiel",
