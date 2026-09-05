@@ -1,0 +1,238 @@
+{
+    "portfolio": {
+        "lang": "es",
+        "nav": {
+            "home": "Inicio",
+            "projects": "Proyectos",
+            "educations": "Estudios",
+            "technologies": "Tecnologías",
+            "languages": "Idiomas",
+            "contact": "Contacto",
+            "langs": [
+                {
+                    "text": "Inglés",
+                    "url": "index-en.xml",
+                    "img": "img/en.webp"
+                },
+                {
+                    "text": "Español",
+                    "url": "index.xml",
+                    "img": "img/es.webp"
+                }
+            ]
+        },
+        "basics": {
+            "profilePicture": "img/diegoPicture.webp",
+            "name": "Diego Fernández Criado",
+            "label": "Programador Junior",
+            "summary": "¡Hola! Soy Diego, desarrollador de aplicaciones multiplataforma y me apasiona el diseño UI y UX. Soy un entusiasta de la fotografía, el cine y la música, y soy un friki de los videojuegos. Mi pasión por la tecnología, la innovación y la perfección me han llevado hasta aquí, y creo firmemente que las mejoras del 1% son las que marcan la diferencia."
+        },
+        "projects": [
+            {
+                "img": "img/staff19torneos.webp",
+                "name": "ST19",
+                "startDate": "29/05/2024",
+                "endDate": "10/06/2024",
+                "description": "Proyecto Web con Wordpress y Elementor, para digitalizar los procesos difusión e inscripción de \"@staff19torneos\"",
+                "url": {
+                    "text": "Sitio Web",
+                    "value": "https://staff19torneos.com"
+                },
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "BOOTSTRAP",
+                    "JAVASCRIPT",
+                    "WORDPRESS",
+                    "ELEMENTOR"
+                ]
+            },
+            {
+                "img": "img/ligacabanasdelasagrafs.webp",
+                "name": "LFSC",
+                "startDate": "16/07/2024",
+                "endDate": "20/07/2024",
+                "description": "Proyecto Web con Wordpress y Spectra para la \"Liga Cabañas de la Sagra FS\" (en desuso)",
+                "url": {
+                    "text": "Sitio Web",
+                    "value": "https://ligacabanasdelasagrafs.com"
+                },
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "WORDPRESS",
+                    "BOOTSTRAP"
+                ]
+            },
+            {
+                "img": "img/intecmain.webp",
+                "name": "Intecmain",
+                "startDate": "20/01/2025",
+                "endDate": "09/03/2025",
+                "description": "Proyecto Web con Wordpress y Elementor para dar a conocer la empresa \"Intecmain\"",
+                "url": {
+                    "text": "Sitio Web",
+                    "value": "https://intecmain.com"
+                },
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "WORDPRESS",
+                    "ELEMENTOR"
+                ]
+            }
+        ],
+        "educations": [
+            {
+                "institution": "IES Azarquiel",
+                "url": "http://www.ies-azarquiel.es",
+                "area": "Desarrollo de Software",
+                "studyType": "Desarrollo de Aplicaciones Multiplataforma",
+                "startDate": "09 / 2023",
+                "endDate": "09 / 2025",
+                "score": {
+                    "text": "Nota: ",
+                    "value": "8.2 (por definir)"
+                },
+                "skills": [
+                    "JAVA",
+                    "SQL",
+                    "PL-SQL",
+                    "HTML",
+                    "CSS",
+                    "JAVASCRIPT",
+                    "XML",
+                    "XSLT",
+                    "JSON",
+                    "BOOTSTRAP",
+                    "WORDPRESS",
+                    "KOTLIN",
+                    "JPC",
+                    "SWIFT",
+                    "C#"
+                ]
+            },
+            {
+                "institution": "IES Azarquiel",
+                "url": "http://www.ies-azarquiel.es",
+                "area": "Informática y Comunicaciones",
+                "studyType": "Sistemas Microinformáticos y Redes",
+                "startDate": "09 / 2021",
+                "endDate": "06 / 2023",
+                "score": {
+                    "text": "Nota: ",
+                    "value": "8.4"
+                },
+                "skills": [
+                    "SISTEMAS LINUX",
+                    "SISTEMAS WINDOWS",
+                    "SERVICIOS EN RED",
+                    "CIBERSEGURIDAD",
+                    "REDES LOCALES",
+                    "MANTENIMIENTO DE HARDWARE",
+                    "CMS",
+                    "OFFICE"
+                ]
+            }
+        ],
+        "skills": [
+            {
+                "name": "Git",
+                "icon": "assets/git.svg"
+            },
+            {
+                "name": "GitHub",
+                "icon": "assets/github.svg"
+            },
+            {
+                "name": "Figma",
+                "icon": "assets/figma.svg"
+            },
+            {
+                "name": "Supabase",
+                "icon": "assets/supabase.svg"
+            },
+            {
+                "name": "Docker",
+                "icon": "assets/docker.svg"
+            },
+            {
+                "name": "Proxmox",
+                "icon": "assets/proxmox.svg"
+            },
+            {
+                "name": "Cloudflare",
+                "icon": "assets/cloudflare.svg"
+            },
+            {
+                "name": "Oracle SQL",
+                "icon": "assets/oracle.svg"
+            },
+            {
+                "name": "Postgres",
+                "icon": "assets/postgresql.svg"
+            },
+            {
+                "name": "C#",
+                "icon": "assets/csharp.svg"
+            },
+            {
+                "name": "Java",
+                "icon": "assets/java.svg"
+            },
+            {
+                "name": "Kotlin",
+                "icon": "assets/kotlin.svg"
+            },
+            {
+                "name": "JPC",
+                "icon": "assets/jetpackcompose.svg"
+            },
+            {
+                "name": "BitWarden",
+                "icon": "assets/bitwarden.svg"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Español",
+                "fluency": "Nativo",
+                "img": "img/es.webp"
+            },
+            {
+                "name": "Inglés",
+                "fluency": "B2",
+                "img": "img/en.webp"
+            }
+        ],
+        "contacts": {
+            "email": "contact@diegofercri.dev",
+            "location": {
+                "countryCode": "ES",
+                "region": "Toledo",
+                "url": "https://www.google.com/maps/place/Toledo+Spain"
+            },
+            "privacy": {
+                "text": "Nota: ",
+                "value": "Por razones de privacidad, si deseas conocer mi ubicación exacta y teléfono móvil ponte en contacto conmigo en"
+            },
+            "profiles": [
+                {
+                    "network": "linkedin",
+                    "username": "@diegofercri",
+                    "url": "https://www.linkedin.com/in/diegofercri"
+                },
+                {
+                    "network": "github",
+                    "username": "@diegofercri",
+                    "url": "https://github.com/diegofercri"
+                },
+                {
+                    "network": "instagram",
+                    "username": "@diegofercri",
+                    "url": "https://www.instagram.com/diegofercri"
+                }
+            ]
+        }
+    }
+}
