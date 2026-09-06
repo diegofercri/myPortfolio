@@ -91,52 +91,40 @@
                 "icon": "assets/github.svg"
             },
             {
-                "name": "Figma",
-                "icon": "assets/figma.svg"
-            },
-            {
-                "name": "Supabase",
-                "icon": "assets/supabase.svg"
-            },
-            {
-                "name": "Docker",
-                "icon": "assets/docker.svg"
+                "name": "Cloudflare",
+                "icon": "assets/cloudflare.svg"
             },
             {
                 "name": "Proxmox",
                 "icon": "assets/proxmox.svg"
             },
             {
-                "name": "Cloudflare",
-                "icon": "assets/cloudflare.svg"
+                "name": "Docker",
+                "icon": "assets/docker.svg"
             },
             {
                 "name": "Oracle SQL",
                 "icon": "assets/oracle.svg"
             },
             {
-                "name": "Postgres",
-                "icon": "assets/postgresql.svg"
-            },
-            {
-                "name": "C#",
-                "icon": "assets/csharp.svg"
-            },
-            {
-                "name": "Java",
-                "icon": "assets/java.svg"
+                "name": "Supabase",
+                "icon": "assets/supabase.svg"
             },
             {
                 "name": "Kotlin",
                 "icon": "assets/kotlin.svg"
             },
             {
-                "name": "JPC",
-                "icon": "assets/jetpackcompose.svg"
+                "name": "Java",
+                "icon": "assets/java.svg"
             },
             {
                 "name": "BitWarden",
                 "icon": "assets/bitwarden.svg"
+            },
+            {
+                "name": "Figma",
+                "icon": "assets/figma.svg"
             }
         ],
         "languages": [
